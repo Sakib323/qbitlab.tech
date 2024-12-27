@@ -1,0 +1,185 @@
+.sala-mailchimp-form{
+	max-width: 470px;
+	width: 100%;
+	display: inline-block;
+	margin: 0 auto;
+	label{
+		display: block;
+		position: relative;
+		&:after{
+			content: '\f061';
+			font-family: "Font Awesome 5 Pro";
+			font-weight: 500;
+			position: absolute;
+			right: 20px;
+			top: 20px;
+			font-size: 24px;
+			color: #fff;
+			z-index: 1;
+		}
+	}
+	input{
+		border-radius: 3px;
+  		border: solid 1px #fff;
+		background-color: transparent;
+		padding: 0 60px 0 30px;
+		height: 80px;
+		line-height: 78px;
+		color: #fff;
+		font-size: 16px;
+		position: relative;
+		z-index: 2;
+	}
+	input[type="email"]:focus{
+		background-color: transparent;
+		border-color: #fff;
+		color: #fff;
+	}
+	input[type='email'] {
+		&::-webkit-input-placeholder {
+			color: #fff;
+			font-size: 16px;
+		}
+
+		&:-moz-placeholder {
+			color: #fff;
+			font-size: 16px;
+		}
+
+		&::-moz-placeholder {
+			color: #fff;
+			font-size: 16px;
+		}
+
+		&:-ms-input-placeholder {
+			color: #fff;
+			font-size: 16px;
+		}
+	}
+	.mc4wp-alert.mc4wp-success{
+		color: #41ff41;
+	}
+	.mc4wp-alert.mc4wp-error{
+		color: #ff3e3e;
+		a{
+			color: $accent_color;
+		}
+	}
+}
+
+.sala-mailchimp-form-style-02,
+.sala-mailchimp-form-style-03{
+
+	input[type='email'] {
+		&::-webkit-input-placeholder {
+			color: $primary_color;
+			font-size: 16px;
+		}
+
+		&:-moz-placeholder {
+			color: $primary_color;
+			font-size: 16px;
+		}
+
+		&::-moz-placeholder {
+			color: $primary_color;
+			font-size: 16px;
+		}
+
+		&:-ms-input-placeholder {
+			color: $primary_color;
+			font-size: 16px;
+		}
+	}
+
+	.mc4wp-form-fields{
+		h4,
+		p.desc{
+			display: none;
+			margin: 0;
+		}
+		p{
+			margin: 0;
+		}
+	}
+
+	input[type="email"]:focus{
+		background-color: #fff;
+		color: $primary_color;
+	}
+
+	.sala-mailchimp-form{
+		max-width: 500px;
+		input{
+			background-color: #fff;
+			height: 60px;
+			line-height: 60px;
+			padding: 0 160px 0 30px;
+			color: $primary_color;
+		}
+	}
+
+	form{
+		position: relative;
+
+		input[type="submit"]{
+			position: absolute;
+			top: 5px;
+			right: 6px;
+			cursor: pointer;
+			padding: 0 34px;
+			height: 48px;
+			line-height: 48px;
+			color: #fff;
+			border-color: $primary_color;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+		}
+
+		input[type="submit"]:focus,
+		input[type="submit"]:hover{
+			background-color: #1043B2;
+			color: #fff;
+		}
+	}
+}
+
+.sala-mailchimp-form-style-03{
+
+	.sala-mailchimp-form{
+		input{
+			background-color: #f8f8f8;
+			height: 48px;
+			line-height: 48px;
+			padding: 0 114px 0 16px;
+		}
+	}
+
+	input[type="email"]:focus{
+		background-color: #f8f8f8;
+	}
+
+	form{
+
+		input[type="submit"]{
+			position: absolute;
+			top: 0;
+			right: 0;
+			cursor: pointer;
+			padding: 0 16px;
+			height: 48px;
+			line-height: 48px;
+			color: #fff;
+			border-color: $accent_color;
+			background-color: $accent_color;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+		}
+	}
+
+	.sala-mailchimp-form label:after{
+		display: none;
+	}
+}

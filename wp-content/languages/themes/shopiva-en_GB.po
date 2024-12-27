@@ -1,0 +1,85 @@
+# Translation of Themes - Shopiva in English (UK)
+# This file is distributed under the same license as the Themes - Shopiva package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-01-01 18:28:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: en_GB\n"
+"Project-Id-Version: Themes - Shopiva\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Shopiva is a WooCommerce multipurpose WordPress theme designed for shopping online stores. Shopiva is suitable for eCommerce websites such as fashion, suit, sneaker, shoes, glasses, accessories, supermarket … or anything you want. The theme is built with lots of cool features and fully eCommerce functionalities in Pro version. Visit Shopiva pro demo. https://preview.sellerthemes.com/pro/shopiva/"
+msgstr "Shopiva is a WooCommerce multipurpose WordPress theme designed for shopping online stores. Shopiva is suitable for eCommerce websites such as fashion, suit, sneaker, shoes, glasses, accessories, supermarket … or anything you want. The theme is built with lots of cool features and fully eCommerce functionalities in Pro version. Visit Shopiva pro demo. https://preview.sellerthemes.com/pro/shopiva/"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Shopiva"
+msgstr "Shopiva"
+
+#: inc/customizer/customizer-options/shopiva-pro.php:29
+msgid "Give us Rating"
+msgstr "Give us Rating"
+
+#: inc/customizer/customizer-options/shopiva-pro.php:27
+msgid "Ask for Support"
+msgstr "Ask for Support"
+
+#: inc/customizer/customizer-options/shopiva-pro.php:25
+msgid "Purchase Now"
+msgstr "Purchase Now"
+
+#: inc/customizer/customizer-options/shopiva-pro.php:23
+msgid "Pro Demo"
+msgstr "Pro Demo"
+
+#: inc/customizer/customizer-options/shopiva-pro.php:7
+msgid "Get More Features in Shopiva Pro"
+msgstr "Get More Features in Shopiva Pro"
+
+#: template-parts/sections/section-header.php:108
+msgid "active"
+msgstr "active"
+
+#: template-parts/sections/section-header.php:84
+msgid "Header Above Collapse"
+msgstr "Header Above Collapse"
+
+#: template-parts/sections/section-header.php:75
+msgid "Header Close Menu"
+msgstr "Header Close Menu"
+
+#: template-parts/sections/section-header.php:66
+msgid "Menu Collaped"
+msgstr "Menu Collaped"
+
+#: template-parts/sections/section-header.php:39
+msgid "Please assign widget."
+msgstr "Please assign widget."
+
+#: header.php:17
+msgid "Skip to content"
+msgstr "Skip to content"
+
+#: functions.php:41
+msgid "Header Navigation Widget"
+msgstr "Header Navigation Widget"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://sellerthemes.com/shopiva-free/"
+msgstr "https://sellerthemes.com/shopiva-free/"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://sellerthemes.com/"
+msgstr "https://sellerthemes.com/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "Seller Themes"
+msgstr "Seller Themes"

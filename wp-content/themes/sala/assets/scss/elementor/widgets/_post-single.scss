@@ -1,0 +1,6 @@
+.elm-post-single{
+	.site-content.has-sidebar #primary {
+		flex-basis: calc( 100% - 370px );
+		max-width: calc( 100% - 370px );
+  	}
+}

@@ -1,0 +1,723 @@
+body.sala-dark-scheme{
+
+	background-color: $primary_color;
+	color: #cccccc;
+
+	.site-main-logo{
+		display:none;
+	}
+
+	.site-dark-logo{
+		display:block;
+	}
+
+	.elementor .elementor-section.background-2,
+	.widget .tagcloud a,
+	.widget_text .mc4wp-form,
+	.woocommerce .cart.shop_table tbody tr,
+	.cart_totals,
+	.woocommerce .action-form .updated-cart button,
+	.woocommerce .action-form .updated-cart button:disabled,
+	.woocommerce-info,
+	.woocommerce .checkout.woocommerce-checkout .woocommerce-billing-fields input,
+	.woocommerce .checkout.woocommerce-checkout .woocommerce-billing-fields textarea,
+	.woocommerce .checkout.woocommerce-checkout .woocommerce-billing-fields .select2-selection,
+	.woocommerce .checkout.woocommerce-checkout .woocommerce-additional-fields input,
+	.woocommerce .checkout.woocommerce-checkout .woocommerce-additional-fields textarea,
+	.woocommerce .checkout.woocommerce-checkout .woocommerce-additional-fields .select2-selection,
+	.woocommerce .checkout.woocommerce-checkout .shipping_address input,
+	.woocommerce .checkout.woocommerce-checkout .shipping_address textarea,
+	.woocommerce .checkout.woocommerce-checkout .shipping_address .select2-selection,
+	.select2-dropdown,
+	.woocommerce .checkout.woocommerce-checkout .shop-table-wrap,
+	.woocommerce-error,
+	.elementor .elementor-section .background-3 .elementor-widget-wrap,
+	.sala-contact-form-7 input[type="submit"],
+	.portfolio-related,
+	.elementor .elementor-section .sala-table.style-02 tbody tr,
+	pre, .product-quantity .entry-quantity,
+	.elementor .elementor-element.background-2 > .elementor-widget-container,
+	.woocommerce-message,
+	.woocommerce-notice--success.woocommerce-thankyou-order-received,
+	.woocommerce .woocommerce-customer-details address,
+	.sala-blog-masonry .sala-blog-box-background.post .post-detail,
+	.area-menu .inner-menu,
+	.main-menu.desktop-menu .children,
+	header.site-header.header-light,
+	.page-title-01 .page-title-bg,
+	.site-content.no-sidebar .post-share .share-list a,
+	.growl.growl.growl-default,
+	&.single .post-author-bio,
+	.sala-blog-background.sala-blog .inner-post-wrap,
+	.post-author.post-author-bio{
+		background-color: #252428;
+	}
+
+	.elementor .elementor-section.curve-center-dark{
+		background-image: url("assets/shape-divider/curve-center-dark.svg");
+	}
+
+	.main-menu .background-2 .elementor-widget-wrap{
+		background-color: #252428 !important;
+	}
+
+	.main-menu{
+		.elementor-widget-wrap{
+			background-color: $primary_color !important;
+		}
+	}
+
+	.layout-02 .elementor-heading-title mark{
+		color: #FFCC00;
+	}
+
+	&.woocommerce-account.logged-in .woocommerce {
+		address{
+			background-color: #252428;
+			color: #cccccc;
+		}
+		.woocommerce-MyAccount-navigation .woocommerce-MyAccount-navigation-link{
+			background-color: #252428;
+			border-color: #333333;
+			margin: 0;
+			a{
+				color: #cccccc;
+			}
+		}
+		.woocommerce-MyAccount-navigation .woocommerce-MyAccount-navigation-link.is-active{
+			background-color: $primary_color;
+		}
+		.woocommerce-MyAccount-content .woocommerce-address-fields .form-row input,
+		.woocommerce-MyAccount-content .woocommerce-EditAccountForm .form-row input{
+			background-color: #252428;
+		}
+		.woocommerce-EditAccountForm fieldset legend{
+			color: $bg_body;
+		}
+		fieldset {
+			border-color: #333333;
+			margin-bottom: 20px;
+		}
+	}
+
+	.woocommerce-info,
+	.sala-mailchimp-form-style-03 .sala-mailchimp-form input{
+		border-color: #252428;
+	}
+
+	.sala-mailchimp-form-style-03 .sala-mailchimp-form input[type='email']::-webkit-input-placeholder{
+		color: #eeeeee;
+	}
+
+	.sala-mailchimp-form-style-03 .sala-mailchimp-form input[type='email']:-moz-placeholder{
+		color: #eeeeee;
+	}
+
+	.sala-mailchimp-form-style-03 .sala-mailchimp-form input[type='email']::-moz-placeholder{
+		color: #eeeeee;
+	}
+
+	.sala-mailchimp-form-style-03 .sala-mailchimp-form input[type='email']:-ms-input-placeholder{
+		color: #eeeeee;
+	}
+
+	.sala-mailchimp-form-style-03 .sala-mailchimp-form input[type='email']:focus{
+		background-color: #252428;
+	}
+
+	.elementor .elementor-section .background-1 .elementor-widget-container,
+	.sala-pricing-plan .toggle-wrap .switch.active .slider:before,
+	.elementor .elementor-section .testimonial-item,
+	.sala-mailchimp-form-style-02 .sala-mailchimp-form input[type="submit"],
+	.elementor .elementor-section .elementor-column.background-1 .elementor-widget-wrap,
+	&:not(.elementor-editor-active) .sala-grid .grid-item.type-portfolio::before,
+	&:not(.elementor-editor-active) .sala-grid .grid-item.type-portfolio::after,
+	.elementor .elementor-section.background-1 {
+		background-color: $primary_color;
+	}
+
+	.elementor .elementor-section .layout-image-stacked.background-2.sala-testimonial-style-01 .testimonial-item{
+		background-color: transparent;
+		box-shadow: inherit;
+		.content{
+			background-color: $primary_color;
+		}
+	}
+
+	.elementor .elementor-section .elementor-element.color-1 .testimonial-item{
+		background-color: transparent;
+	}
+
+	.elementor .elementor-section .elementor-element.background-2-testimonial .testimonial-item{
+		background-color: #252428;
+	}
+
+	.elementor-widget-button.text-underline .elementor-button-text,
+	.sala-pricing-plan .toggle-wrap .switch .slider,
+	.woocommerce .inner-action-form .coupon button{
+		border-color: $bg_body;
+	}
+
+	.sala-pricing-plan .toggle-wrap .switch .slider:before,
+	.sala-pricing-plan .toggle-wrap .switch.active .slider,
+	.elementor .elementor-section .sala-button:before,
+	.woocommerce .inner-action-form .coupon button,
+	#commentform .sala-button,
+	.text-rotate:after, .socials-rotate li:after,
+	.sala-mailchimp-form-style-02 .sala-mailchimp-form input,
+	&.woocommerce div.product .woocommerce-tabs ul.tabs li.active a:after,
+	.sala-swiper-slider .swiper-pagination-bullet:hover:before,
+	.sala-swiper-slider .swiper-pagination-bullet.swiper-pagination-bullet-active:before,
+	.sala-swiper .swiper-pagination-bullet:hover:before,
+	.sala-swiper .swiper-pagination-bullet.swiper-pagination-bullet-active:before{
+		background-color: $bg_body;
+	}
+
+	.sala-image-box.style-03 svg > *,
+	.elementor-shape .elementor-shape-fill{
+		fill: $primary_color;
+	}
+
+	.heading-description h6,
+	.heading-description h5,
+	.heading-description h4,
+	.heading-description h5,
+	.heading-description h2,
+	.widget a,
+	.sala-blog .post-excerpt p,
+	.sala-pagination li .page-numbers, .woocommerce nav.woocommerce-pagination li .page-numbers,
+	.post-author .entry-bio,
+	.post-author .head-author span,
+	.elementor .elementor-element div.description,
+	.widget_recent_entries li span,
+	.woocommerce-info:before,
+	.woocommerce-error, .woocommerce-info, .woocommerce-message,
+	&.single .portfolio-excerpt p,
+	.elementor .elementor-element .elementor-icon-box-description,
+	&.woocommerce div.product div.summary .product_meta > span span,
+	&.woocommerce div.product div.summary .product_meta > span a,
+	&.woocommerce div.product .woocommerce-tabs p,
+	&.woocommerce #reviews #review_form_wrapper .comment-form-rating label{
+		color: #cccccc;
+	}
+
+	.sala-blog-categories li a,
+	.sala-blog .post-categories li a,
+	.sala-blog .post-title a,
+	.sala-button.line,
+	.widget > ul > li,
+	.widget > ul > li a,
+	.woocommerce .checkout.woocommerce-checkout .woocommerce-billing-fields > h3,
+	.sala-portfolio-widget .inner-portfolio-wrap .portfolio-taxonomy li a,
+	.sala-portfolio .portfolio-taxonomy li:after,
+	.sala-contact-form-7 input[type="submit"]:hover,
+	.elementor .elementor-element .elementor-star-rating__title,
+	.elementor .elementor-element .accordion-title,
+	&.woocommerce-account.logged-in .woocommerce .woocommerce-MyAccount-content .woocommerce-address-fields .form-row label,
+	&.woocommerce-account.logged-in .woocommerce .woocommerce-MyAccount-content .woocommerce-EditAccountForm .form-row label,
+	&.single .thankyou,
+	ul.portfolio-taxonomy li a,
+	&.woocommerce .woocommerce-breadcrumb a,
+	&.woocommerce div.product .woocommerce-product-rating a,
+	&.woocommerce div.product p.price,
+	&.woocommerce div.product span.price,
+	&.woocommerce div.product div.summary .social-share .list-social-icon span,
+	&.woocommerce div.product .woocommerce-tabs ul.tabs li.active a,
+	&.woocommerce #reviews #review_form_wrapper .comment-reply-title,
+	.woocommerce ul.order_details li strong,
+	.woocommerce .woocommerce-order-details__title, .woocommerce .woocommerce-column__title,
+	.woocommerce .woocommerce-order-details .order_details thead th,
+	.woocommerce .woocommerce-order-details .order_details tbody td.product-name a,
+	.woocommerce .woocommerce-order-details .order_details .amount,
+	.woocommerce .woocommerce-order-details .order_details tfoot tr th,
+	.woocommerce .woocommerce-order-details .order_details tbody td.product-name strong,
+	.woocommerce .woocommerce-order-details .order_details tfoot td, .woocommerce .woocommerce-order-details .order_details tfoot th,
+	.woocommerce .woocommerce-customer-details address,
+	.page-title .sala_breadcrumb a,
+	.page-title .sala_breadcrumb li,
+	#page-title .heading,
+	.btn-border a:hover span.elementor-button-text,
+	.elementor-widget-tabs.layout-01 .elementor-tab-title.elementor-active{
+		color: $bg_body;
+	}
+
+	.sala-blog .post-categories li a:hover,
+	.sala-blog .post-title a:hover,
+	.sala-blog .btn-readmore a,
+	.sala-portfolio-widget .inner-portfolio-wrap .portfolio-taxonomy li a:hover,
+	&.single .portfolio-meta .portfolio-meta-item .content a:hover,
+	ul.portfolio-taxonomy li a:hover,
+	&.woocommerce .woocommerce-breadcrumb a:hover,
+	&.woocommerce div.product .woocommerce-product-rating a:hover,
+	&.woocommerce div.product div.summary .product_meta > span a:hover,
+	&.woocommerce div.product div.summary .social-share .list-social-icon a:hover i,
+	.sala-portfolio-widget .inner-portfolio-wrap .portfolio-title a:hover,
+	.woocommerce .woocommerce-order-details .order_details tbody td.product-name a:hover,
+	.btn-border span.elementor-button-text{
+		color: $accent_color;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	input[type="tel"],
+	input[type="password"],
+	input[type="number"],
+	input[type="search"],
+	input[type="url"],
+	form .layout-02 input[type="tel"], textarea,
+	.woocommerce .inner-action-form .coupon input{
+		background-color: #252428;
+		border-color: #333333;
+		color: #cccccc;
+	}
+
+	.sala-contact-form-7 .layout-02 input[type="submit"]{
+		background-color: #FFCC00;
+		color: #111111;
+	}
+
+	.woocommerce .cart.shop_table tbody tr td.product-quantity input{
+		background-color: transparent;
+		color: $bg_body;
+	}
+
+	.nice-select{
+		background-color: transparent;
+
+		span{
+			color: $bg_body;
+		}
+
+		.list{
+			background-color: #252428;
+		}
+
+		.option:hover, .option.focus, .option.selected.focus{
+			background-color: $primary_color;
+		}
+	}
+
+	svg{
+		path[fill="#000"]{
+			fill: #ffffff;
+		}
+		path[fill="#F8F9FC"]{
+			fill: #252428;
+		}
+		path[fill="#111111"]{
+			fill: #ffffff;
+		}
+		path[stroke="#111"]{
+			stroke: #ffffff;
+		}
+		rect[stroke="#111"]{
+			stroke: #ffffff;
+		}
+		g[fill="#191919"]{
+			fill: #ffffff;
+		}
+		g[fill="#F9F9F9"]{
+			fill: #252428;
+		}
+		g[fill="#F8F9FC"]{
+			fill: #252428;
+		}
+		g[fill="#111111"]{
+			fill: #ffffff;
+		}
+		circle[fill="#F8F9FC"]{
+			fill: #252428;
+		}
+	}
+
+	.ux-element.canvas-menu .icon-menu circle{
+		fill: #ffffff;
+	}
+
+	.opc2{
+		opacity: 0.2;
+	}
+
+	.sala-contact-form-7 label, p,
+	.woocommerce .cart.shop_table thead tr th,
+	.woocommerce .cart.shop_table tbody tr td.product-price,
+	.woocommerce .cart.shop_table tbody tr td.product-subtotal,
+	.product-quantity .btn-quantity,
+	.woocommerce .cart.shop_table tbody tr td.product-name a,
+	.woocommerce .checkout.woocommerce-checkout label,
+	.woocommerce .checkout.woocommerce-checkout #order_review table thead tr th,
+	.woocommerce .checkout.woocommerce-checkout #order_review table tfoot tr.cart-subtotal td .amount,
+	.sala-accordion .accordion-icons .accordion-icon i,
+	&.single .portfolio-meta .portfolio-meta-item .title,
+	.sala-mailchimp-form-style-03 .sala-mailchimp-form input[type='email'],
+	.sala-blog-action .result-count{
+		color: #eeeeee;
+	}
+
+	.sala-swiper-slider .swiper-pagination-bullet:before,
+	.sala-swiper .swiper-pagination-bullet:before{
+		border-color: #eeeeee;
+	}
+
+	.woocommerce .checkout.woocommerce-checkout .woocommerce-billing-fields input,
+	.woocommerce .checkout.woocommerce-checkout .woocommerce-billing-fields textarea,
+	.woocommerce .checkout.woocommerce-checkout .woocommerce-billing-fields .select2-selection,
+	.woocommerce .checkout.woocommerce-checkout .woocommerce-additional-fields input,
+	.woocommerce .checkout.woocommerce-checkout .woocommerce-additional-fields textarea,
+	.woocommerce .checkout.woocommerce-checkout .woocommerce-additional-fields .select2-selection,
+	.woocommerce .checkout.woocommerce-checkout .shipping_address input,
+	.woocommerce .checkout.woocommerce-checkout .shipping_address textarea,
+	.woocommerce .checkout.woocommerce-checkout .shipping_address .select2-selection,
+	.select2-container--default .select2-selection--single .select2-selection__rendered,
+	&.woocommerce div.product .woocommerce-tabs ul.tabs li a{
+		color: #999999;
+	}
+
+	.woocommerce .cart.shop_table tbody tr td.product-remove a,
+	.woocommerce .checkout.woocommerce-checkout .shop-table-wrap table tbody td,
+	.woocommerce .checkout.woocommerce-checkout .shop-table-wrap table tbody td strong,
+	.woocommerce .checkout.woocommerce-checkout .shop-table-wrap table tfoot th,
+	.woocommerce .checkout.woocommerce-checkout .shop-table-wrap table tbody td:last-child,
+	.woocommerce .checkout.woocommerce-checkout .shop-table-wrap table tbody td:last-child span,
+	.woocommerce .checkout.woocommerce-checkout .shop-table-wrap table tfoot tr.order-total th,
+	.woocommerce .checkout.woocommerce-checkout .shop-table-wrap table tfoot tr.order-total td,
+	.woocommerce .checkout.woocommerce-checkout .shop-table-wrap table tfoot tr.order-total td strong,
+	.woocommerce .checkout.woocommerce-checkout .shop-table-wrap table tfoot tr.order-total td span{
+		color: #eeeeee !important;
+	}
+
+	.sala-table.style-02 thead th,
+	.elementor .elementor-element .testimonial-item,
+	.select2-dropdown,
+	.select2-container--default .select2-search--dropdown .select2-search__field,
+	.woocommerce form.checkout_coupon,
+	.elementor .elementor-element .sala-icon-box,
+	.elementor .elementor-element .sala-image-box,
+	.sala-accordion-style-02 .sala-accordion .accordion-section,
+	.elementor .elementor-element .sala-list .item,
+	.elementor .elementor-element .sala-pricing-features li,
+	td, th, .products.related,
+	&.woocommerce table.shop_attributes,
+	&.woocommerce table.shop_attributes td,
+	&.woocommerce table.shop_attributes th,
+	.woocommerce table.shop_table td,
+	.woocommerce table.shop_table,
+	.sala-blog-masonry .sala-blog-box .post-detail, .sala-blog-masonry .sala-blog-box-background .post-detail,
+	.sala-mailchimp-form-style-02 form input[type="submit"],
+	.elementor .elementor-section.border-01,
+	.elementor .elementor-section .elementor-element.border-01 .elementor-widget-container,
+	.area-menu .menu,
+	.comments-area,
+	.sala-blog-boxed.sala-blog .inner-post-wrap, .sala-blog-background.sala-blog .inner-post-wrap,
+	&.single .portfolio-meta .portfolio-meta-item,
+	.elementor .elementor-section .elementor-element.border-01 .sala-form-location .field-select .form-input,
+	.elementor .elementor-section .elementor-element.border-01 .sala-form-location .field-select .form-input::after,
+	.elementor .elementor-section .elementor-element.border-01 > .elementor-element-populated,
+	.elementor .elementor-section .accordion-section:hover,
+	.elementor .elementor-section .accordion-section.active{
+		border-color: #333333;
+	}
+
+	.sala-accordion-style-02 .sala-accordion .accordion-section:hover{
+		background-color: #333333;
+	}
+
+	th,td,
+	#sala-login label, #sala-register label,
+	#forgot-form label, #reset-form label,
+	.elementor .elementor-element .list-header .text,
+	h1, h2, h3, h4, h5, h6, .heading-font, strong, b, a, mark,
+	.elementor-element span,
+	.elementor-element .testimonial-item div.text,
+	header.site-header.header-light .site-menu:not(.mobile-menu) .menu > li > a,
+	.sala-form-location .field-select .field-icon,
+	.sala-form-location .field-select .form-input,
+	.elementor .elementor-element .accordion-section.active .accordion-title,
+	.elementor .elementor-element .accordion-section.active .accordion-content,
+	.elementor .elementor-element .accordion-header:hover .accordion-title{
+		color: $bg_body;
+	}
+
+	.elementor{
+
+		.elementor-element{
+		 	.title, .price-wrap-inner > div, .pricing-description, .sala-pricing-features li,
+		 	.testimonial-item .name,
+			.swiper-pagination-bullet.swiper-pagination-bullet-active,
+			.elementor-image-box-title,
+			.style-solid-rounded-title .link-text,
+			.sala-circle-progress-chart .chart-number,
+			.sala-swiper-slider.pagination-style-06 .fraction .current,
+			.sala-swiper.pagination-style-06 .fraction .current{
+				color: $bg_body;
+			}
+
+			.sala-team-member-style-01 .social-networks a span{
+				color: #666666;
+			}
+
+			&.elementor-widget-sala-icon-box .sala-icon g,
+			&.elementor-widget-sala-product-banner.color-1 .button-text{
+				color: #ffffff;
+			}
+
+			&.elementor-widget-sala-icon-box.color-1 .heading,
+			&.elementor-widget-sala-icon-box.color-1 .description,
+			&.elementor-widget-sala-icon-box.color-1 .sala-icon g,
+			&.elementor-widget-sala-icon-box.icon-color-1 .sala-icon g,
+			&.elementor-widget-sala-product-banner.color-1 .banner-product-title,
+			&.elementor-widget-sala-product-banner.color-1 .banner-product-price,
+			&.elementor-widget-sala-product-banner.color-1 .banner-product-desc{
+				color: $primary_color;
+			}
+
+			&.border-dark{
+				.elementor-widget-container,
+				.image,
+				.sala-box.slide-wrapper{
+					border-color: #333333;
+				}
+			}
+
+			#Home-NFT-Collection{
+				fill: #111;
+			}
+
+			.testimonial-item .position,
+			.testimonial-item .text,
+			.swiper-pagination-bullet,
+			.swiper-pagination-bullet:hover,
+			.elementor-image-box-description{
+				color: #cccccc;
+			}
+
+			.style-solid-rounded-title .link{
+				border-color: $bg_body;
+			}
+
+			&.color-2 i,
+			.widget-image-caption{
+				color: #ffffff;
+			}
+
+			&.color-2{
+				svg > *{
+					stroke: #ffffff;
+				}
+				.video-text{
+					border-bottom-color: #ffffff;
+				}
+			}
+
+			.sala-icon svg > *{
+				fill: #cccccc;
+			}
+
+			&.background-white-60-left{
+				background-image: linear-gradient(90deg, #111111 60%, #FFDD0F 60%);
+			}
+
+			&.background-white-60-right{
+				background-image: linear-gradient(90deg, #FFDD0F 40%, #111111 40%);
+			}
+
+			&.background-white-left{
+				background-image: linear-gradient(90deg, #111111 50%, #FFDD0F 50%);
+			}
+
+			&.background-white-right{
+				background-image: linear-gradient(90deg, #FFDD0F 50%, #111111 50%);
+			}
+
+			&.background-white-70-left{
+				background-image: linear-gradient(90deg, #111111 70%, #E3DEEC 70%);
+			}
+
+			.shape-divider.layout-01{
+				background: radial-gradient(circle at 224% 25%, rgba(255, 255, 255, 0) 67%, rgba(255, 255, 255, 0) 50%, #111111 50%, #111111 100%) !important;
+			}
+
+			.shape-divider.layout-02{
+				background: radial-gradient(circle at -224% 25%, rgba(255, 255, 255, 0) 67%, rgba(255, 255, 255, 0) 50%, #111111 50%, #111111 100%) !important;
+			}
+
+			&.background-black-right{
+				background-image: linear-gradient(90deg, #111111 50%, #252428 50%);
+			}
+
+			.no-border .accordion-section.active,
+			.no-border .accordion-section:hover{
+				border-color: transparent;
+				.accordion-icon-primary{
+					background-color: #FFCC00;
+				}
+				.accordion-title{
+					color: #FFCC00;
+				}
+			}
+
+			.testimonial-item{
+				box-shadow: 0px 4px 20px 0px rgba(0,0,0, 0.4);
+			}
+
+			&.hover-icon-right span,
+			.sala-team-member-style-01 .social-networks a:hover span{
+				color: $accent_color;
+			}
+
+			&.layout-01 .sala-list .item.active .icon,
+			&.layout-01 .sala-list .link:hover .icon{
+				background-color: #FFCC00;
+				border-color: #FFCC00;
+			}
+
+			.testimonial-rating span,
+			&.hover-icon-right.layout-01 span,
+			&.layout-01 .sala-list .item.active .text,
+			&.layout-01 .sala-list .link:hover .text,
+			&.layout-01 .sala-swiper-slider.nav-style-04 .swiper-nav-button:hover i,
+			&.layout-01 .sala-swiper.nav-style-04 .swiper-nav-button:hover i,
+			&.layout-01.sala-team-member-style-01 .social-networks a:hover span,
+			&.layout-01.sala-team-member-style-01 .social-networks a:hover{
+				color: #FFCC00;
+			}
+
+			&.layout-01.scrollbar {
+				.sala-list{
+					scrollbar-color: #FFCC00 #EEEEEE;
+				}
+				.sala-list::-webkit-scrollbar-thumb {
+					background-color: #FFCC00;
+				}
+			}
+
+			&.elementor-widget-sala-testimonial-stack.background-2 .elementor-widget-container{
+				background-color: transparent;
+			}
+
+			&.elementor-widget-sala-testimonial-stack.background-2 .testimonial-item,
+			&.background-2 .sala-icon-box{
+				background-color: #252428;
+			}
+
+			&.elementor-widget-sala-testimonial-stack.background-2 #elasticstack .testimonial-item .text,
+			&.elementor-widget-sala-testimonial-stack.background-2 #elasticstack .testimonial-item .name,
+			&.elementor-widget-sala-testimonial-stack.background-2 #elasticstack .testimonial-item .position{
+				color: #ffffff;
+			}
+
+			.sala-flickity-marquee .item .text{
+				color: #cccccc;
+			}
+
+			.sala-slider-widget.nav-style-05 .swiper-button-prev i::before{
+				background-image: url("assets/images/prev-white.svg");
+			}
+
+			.sala-slider-widget.nav-style-05 .swiper-button-next i::before{
+				background-image: url("assets/images/next-white.svg");
+			}
+
+			.color-white .button-text{
+				color: #ffffff;
+			}
+		}
+
+		.background-dark-09{
+			.elementor-widget-wrap{
+				background-color: rgba(37, 36, 40, 0.9) !important;
+			}
+		}
+		.elementor-column.border-dark {
+			.elementor-element-populated{
+				border-color: #333333;
+			}
+		}
+	}
+
+	.color-white .elementor-heading-title,
+	.color-white p,
+	.color-white div{
+		color: #ffffff;
+	}
+
+	.scroll-bar-wrap{
+		background: #777777;
+		.scroll-bar-current{
+			background: #ffffff;
+		}
+	}
+
+	.sala-table.style-02 thead span,
+	#sala-login .rememberme,
+	#sala-login .accept-account label[for="ip_accept_account"],
+	#sala-register .rememberme,
+	#sala-register .accept-account label[for="ip_accept_account"],
+	#forgot-form .rememberme,
+	#forgot-form .accept-account label[for="ip_accept_account"],
+	#reset-form .rememberme,
+	#reset-form .accept-account label[for="ip_accept_account"],
+	.woocommerce .inner-cart-total table.shop_table th,
+	.woocommerce .inner-cart-total table.shop_table td,
+	.woocommerce .inner-cart-total table.shop_table tr.order-total th,
+	&.single .portfolio-meta .portfolio-meta-item .content,
+	&.single .portfolio-meta .portfolio-meta-item .content a,
+	&.woocommerce .woocommerce-result-count,
+	&.woocommerce .woocommerce-ordering,
+	&.single .portfolio-slider .block-heading p{
+		color: #cccccc;
+	}
+
+	#sala-login .rememberme span:before,
+	#sala-login .accept-account label[for="ip_accept_account"] span:before,
+	#sala-register .rememberme span:before,
+	#sala-register .accept-account label[for="ip_accept_account"] span:before,
+	#forgot-form .rememberme span:before,
+	#forgot-form .accept-account label[for="ip_accept_account"] span:before,
+	#reset-form .rememberme span:before,
+	#reset-form .accept-account label[for="ip_accept_account"] span:before,
+	.sala-mailchimp-form-style-02 .sala-mailchimp-form input,
+	.nice-select:after{
+		border-color: $bg_body;
+	}
+
+	#sala-login input,
+	#sala-register input,
+	#forgot-form input,
+	#reset-form input{
+		border: 1px solid #252428;
+    	background-color: #252428;
+		color: #cccccc;
+	}
+
+	.post-tags a,
+	.woocommerce .inner-action-form .coupon button,
+	#commentform .sala-button,
+	.sala-button.style-flat,
+	.elementor-element .sala-button.style-flat span.button-text,
+	.elementor .elementor-element.color-1 .elementor-heading-title,
+	.elementor .elementor-section .elementor-element.color-1 .testimonial-item .text,
+	.elementor .elementor-section .elementor-element.color-1 .testimonial-item .name,
+	.elementor .elementor-section .elementor-element.color-1 .testimonial-item .position,
+	.elementor-element.color-1 span,
+	.elementor-element.color-1 .title,
+	.elementor-element.color-1 p,
+	.elementor-element.color-1 div.elementor-counter-title{
+		color: $primary_color;
+	}
+
+	.sala-mode-switcher-wrap .sala-mode-switcher .sala-mode-switcher-toddler-item p,
+	.sala-mode-switcher-wrap .sala-mode-switcher .sala-mode-switcher-item p{
+		color: $text_color;
+	}
+
+}
+
+@media only screen and (max-width: 768px){
+	body.sala-dark-scheme{
+		.woocommerce table.shop_table_responsive tr td::before, .woocommerce-page table.shop_table_responsive tr td::before {
+			color: #eeeeee;
+	  	}
+	}
+}
+

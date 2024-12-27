@@ -1,0 +1,7 @@
+.elementor-widget-sala-image-carousel {
+	.image {
+		img {
+			@extend %NormalTransition;
+		}
+	}
+}

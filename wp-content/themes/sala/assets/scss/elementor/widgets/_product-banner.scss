@@ -1,0 +1,156 @@
+.sala-product-banner{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+
+	.sala-image,
+	.product-content-wrap{
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
+	.product-content-wrap{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		justify-content: end;
+
+		.product-content-inner{
+			padding: 40px 40px;
+			border-radius: 10px;
+			background-color: #f8f9fc;
+			max-width: 470px;
+		}
+	}
+
+	.product-banner-badge{
+		height: 36px;
+		line-height: 36px;
+		padding: 0 20px;
+		border-radius: 21px;
+		background-color: #ffdd0f;
+		text-align: center;
+		font-size: 16px;
+		font-weight: 500;
+		display: inline-block;
+		margin-right: 5px;
+		span{
+			color: #111111;
+		}
+	}
+
+	.banner-product-category{
+		margin-top: 16px;
+	}
+
+	.banner-product-title{
+		font-size: 40px;
+		font-weight: 600;
+		margin-top: 16px;
+		margin-bottom: 0;
+	}
+
+	.banner-product-price{
+		margin-top: 12px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		align-items: center;
+		del,
+		ins,
+		> .amount{
+			font-size: 32px;
+			font-weight: 500;
+			list-style: 1.25;
+			margin-right: 12px;
+		}
+
+		> .amount:last-child{
+			margin-left: 12px;
+		}
+
+		ins{
+			text-decoration: none;
+			color: #111111;
+		}
+		&.right{
+			justify-content: flex-end;
+		}
+		&.center{
+			justify-content: center;
+		}
+	}
+
+	.banner-product-desc{
+		margin-top: 20px;
+	}
+
+	.sala-button-wrapper{
+		margin-top: 32px;
+		.sala-button{
+			width: 100%;
+		}
+	}
+
+	.banner-product-featured{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		margin-top: 20px;
+		.item{
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			align-items: center;
+			-webkit-box-flex: 0;
+			-ms-flex: 0 0 50%;
+			flex: 0 0 50%;
+			max-width: 50%;
+			margin-top: 20px;
+			.sala-icon{
+				margin-right: 16px;
+			}
+			svg{
+				width: 30px;
+				height: auto;
+			}
+			.text{
+				color: #111111;
+			}
+		}
+	}
+}
+
+@include elementor-breakpoint-down(md) {
+	.sala-product-banner .sala-image, .sala-product-banner .product-content-wrap,
+	.sala-product-banner .banner-product-featured .item{
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.sala-product-banner .product-content-wrap{
+		justify-content: center;
+		margin-top: 30px;
+	}
+}
+
+@include elementor-breakpoint-down(sm) {
+	.sala-product-banner .product-content-wrap .product-content-inner{
+		padding: 20px;
+	}
+	.sala-product-banner .banner-product-featured{
+		margin-top: 0;
+	}
+}

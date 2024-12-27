@@ -1,0 +1,112 @@
+.sala-pricing-plan{
+
+	.sala-pricing-plan-header{
+		margin-bottom: 60px;
+	}
+
+	.toggle-wrap{
+		text-align: center;
+		display: flex;
+    	align-items: center;
+    	justify-content: center;
+
+		.switch{
+			position: relative;
+			display: inline-block;
+			width: 55px;
+			height: 32px;
+			margin: 0 20px;
+
+			.slider {
+				position: absolute;
+				cursor: pointer;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				border: 2px solid $primary_color;
+				-webkit-transition: .4s;
+				transition: .4s;
+				border-radius: 34px;
+			}
+
+			.slider:before {
+				position: absolute;
+				content: "";
+				height: 20px;
+				width: 20px;
+				left: 4px;
+				top: 50%;
+    			transform: translateY(-50%);
+				background-color: $primary_color;
+				-webkit-transition: .4s;
+				transition: .4s;
+				border-radius: 50%;
+			}
+		}
+
+		.switch.active{
+
+			.slider{
+				background-color: $primary_color;
+			}
+
+			.slider:before{
+				left: 26px;
+				background-color: #fff;
+			}
+		}
+
+		.discount{
+			position: relative;
+			display: flex;
+			align-items: center;
+
+			.discount-bg{
+				width: 50px;
+				background-image: url(assets/images/macaroni.png);
+				background-repeat: no-repeat;
+				background-size: 36px;
+				background-position: 7px 15px;
+				display: block;
+				height: 40px;
+			}
+
+			.discount-text{
+				position: absolute;
+				left: 0;
+				top: -30px;
+    			white-space: nowrap;
+				display: flex;
+				align-items: center;
+			}
+			&.left{
+				.discount-bg{
+					-webkit-transform: scaleX(-1);
+  					transform: scaleX(-1);
+				}
+				.discount-text{
+					right: 0;
+					left: auto;
+				}
+			}
+		}
+	}
+
+	.sala-pricing-plan-main{
+
+		.primary-content{
+			max-width: 770px;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		.pricing-plan-item{
+			display: none;
+		}
+
+		.pricing-plan-item.active{
+			display: block;
+		}
+	}
+}

@@ -1,0 +1,622 @@
+.site-content {
+    position: relative;
+    z-index: 2;
+	 padding-top: 80px;
+    padding-bottom: 100px;
+	 overflow: hidden;
+}
+
+.site-header.header-float + .page-title{
+	padding-top: 100px;
+}
+
+.error404 .site-content{
+	padding-top: 180px;
+}
+
+body.home .site-content,
+.page-title + .site-content {
+    padding-top: 0;
+}
+
+.boxed {
+	.site-content{
+		max-width: 870px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+#secondary,
+#primary {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+#primary {
+    flex: 1;
+    max-width: 100%;
+}
+
+.elementor-widget-tabs.layout-01{
+	.elementor-tabs-content-wrapper,
+	.elementor-tabs-content-wrapper .elementor-tab-content{
+		border: none;
+	}
+
+	.elementor-tabs-content-wrapper .elementor-tab-content{
+		padding: 60px;
+
+		.flex{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+		.flex-left,
+		.flex-right{
+			-webkit-box-flex: 0;
+			-ms-flex: 0 0 50%;
+			flex: 0 0 50%;
+			max-width: 50%;
+		}
+
+		.flex-left{
+			padding-right: 50px;
+		}
+
+		.flex-right{
+			padding-left: 50px;
+
+			img{
+				width: 100%;
+				border-radius: 8px;
+			}
+		}
+	}
+
+	.elementor-tab-title{
+		padding: 16px 50px;
+	}
+
+	.elementor-tab-title.elementor-active{
+		border: 0;
+		border-bottom: 2px solid #0057FC !important;
+		margin-bottom: 2px;
+		&:before,
+		&:after{
+			bottom: -1.5px !important;
+		}
+	}
+}
+
+.img-full img{
+	width: 100%;
+}
+
+body.archive.no-sidebar #primary{
+	flex-basis: 100%;
+   max-width: 100%;
+}
+
+#secondary .inner-sidebar {
+    height: 100%;
+}
+
+.site-logo a{
+	display: block;
+	line-height: normal;
+}
+
+.grid {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    list-style-type: none;
+
+}
+
+.sala-portfolio-metro.sala-grid.loaded{
+	.grid-sizer {
+		display: none;
+	}
+}
+
+.sala-grid {
+    display: grid;
+	 justify-content: center;
+  	 align-content: center;
+    grid-column-gap: 30px;
+    grid-row-gap: 60px;
+
+    .grid-sizer {
+		display: none;
+	}
+
+    .grid-item {
+		opacity: 0;
+		display: flex;
+		align-items: center;
+        @include transform(translate3d(0, 30px, 0));
+
+		&.animate {
+			opacity: 1;
+            @include transform(none);
+			// DO NOT apply transition all attributes to grid items. It's caused overlap layout on window resize.
+			transition: transform 1s ease-in-out, opacity 1s linear;
+		}
+	}
+
+	&.loaded {
+		display: block;
+
+		.grid-sizer {
+			display: block;
+		}
+	}
+}
+
+.form-control.field-underline {
+    font-size: 16px;
+    line-height: 1.63;
+    border: 0;
+    border-bottom: 1px solid #1a1a1a;
+    border-radius: 0;
+    padding: 0 0 11px;
+    min-height: auto;
+    background: transparent;
+}
+
+.bg-overlay {
+    background: rgba(11, 11, 11, 0.6);
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    @include transition-03;
+}
+
+.sala-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 10;
+    @include transition-03;
+
+    .inner-popup {
+        position: fixed;
+        z-index: 5;
+        top: 150px;
+        left: 15px;
+        right: 15px;
+        margin: 0 auto;
+        background: #fff;
+        padding: 30px;
+        border-radius: 3px;
+        opacity: 0;
+        visibility: hidden;
+        @include transition-03;
+    }
+
+    &.open {
+        opacity: 1;
+        visibility: visible;
+        @include transition-03;
+    }
+
+    &.open .inner-popup {
+        top: 100px;
+        opacity: 1;
+        visibility: visible;
+        @include transition-03;
+    }
+}
+
+.open .bg-overlay {
+    opacity: 1;
+    visibility: visible;
+    @include transition-03;
+}
+
+.page-title-blog {
+
+    .entry-title {
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 1.31;
+        font-family: $heading_font;
+        color: #fff;
+    }
+
+    .sub-title > p {
+        font-size: 24px;
+        line-height: 1.58;
+        color: #fff;
+        margin-bottom: 0;
+    }
+}
+
+mark{
+	background-color: transparent;
+}
+
+.translateY60{
+	transform: translateY(60px);
+}
+
+.loading-effect {
+	display: none;
+	position: relative;
+	bottom: -2px;
+	.golo-dual-ring {
+		width: 28px;
+		height: 28px;
+		&:after {
+			width: 24px;
+			height: 24px;
+			border-width: 3px;
+		}
+	}
+}
+
+p.msg {
+	display: none;
+	color: #20d706;
+	margin-bottom: 10px;
+}
+
+p.msg.text-error{
+	color: red;
+}
+
+p.msg.text-warning{
+	color: yellow;
+}
+
+.imagefull img{
+	width: 100%;
+}
+
+.page-404-content {
+	padding-top: 120px;
+	padding-bottom: 120px;
+
+	.row-404 {
+		 align-items: center;
+	}
+
+	.error-404-title {
+		color: #111111;
+		font-size: 56px;
+		font-weight: 600;
+		line-height: 1.24;
+		margin-bottom: 25px;
+	}
+
+	.error-404-text {
+		font-size: 18px;
+		line-height: 1.33em;
+		max-width: 410px;
+		p{
+			margin: 0;
+		}
+		a{
+			color: $accent_color;
+			display: inline-block;
+		}
+	}
+}
+
+.site-header.header-float + .page-404-content {
+	padding-top: 180px;
+}
+
+#sala-login,
+#sala-register,
+#forgot-form,
+#reset-form{
+	label{
+		font-size: 16px;
+		color: $primary_color;
+		margin-bottom: 8px;
+		display: block;
+		a{
+			color: #999999;
+		}
+		a:hover{
+			color: $primary_color;
+		}
+	}
+	label[for="ip_password"]{
+		display: flex;
+		justify-content: space-between;
+	}
+	input{
+		background-color: #f9f9f9;
+	}
+	label.error{
+		color: red;
+		margin-top: 4px;
+	}
+	.form-group{
+		margin-bottom: 20px;
+	}
+	button{
+		height: 42px;
+		line-height: 36px;
+		border-radius: 3px;
+		background-color: $accent_color;
+		border: 1px solid $accent_color;
+		color: #fff;
+		font-size: 16px;
+		padding: 0 28px;
+		&:hover{
+			background-color: #1043B2;
+		}
+	}
+	.rememberme,
+	.accept-account label[for="ip_accept_account"]{
+		position: relative;
+		padding-left: 25px;
+		color: $text_color;
+		cursor: pointer;
+		input{
+			opacity: 0;
+			visibility: hidden;
+			position: absolute;
+		}
+		span:before{
+			content: '';
+			width: 16px;
+  			height: 16px;
+			border: 1px solid $primary_color;
+			border-radius: 3px;
+			display: block;
+			position: absolute;
+			top: 4px;
+			left: 0;
+		}
+		span:after{
+			content: '\f00c';
+			font-family: 'Font Awesome 5 Pro';
+			position: absolute;
+			left: 2px;
+			top: 2px;
+			font-size: 12px;
+			display: none;
+		}
+		input:checked ~ span:before{
+			border-color: $primary_color;
+			background-color: $primary_color;
+		}
+		input:checked ~ span:after{
+			display: block;
+			color: #fff;
+		}
+	}
+	.password-input{
+		position: relative;
+		input{
+			padding-right: 50px;
+		}
+		.show-password-input::before{
+			content: '\f06e';
+			font-family: 'Font Awesome 5 Pro';
+			position: absolute;
+			top: 12px;
+			right: 15px;
+			cursor: pointer;
+		}
+		.show-password-input.display-password:before{
+			content: '\f070';
+		}
+	}
+	.accept-account label a{
+		color: $accent_color;
+	}
+
+	.accept-account{
+		label{
+			display: flex;
+			flex-wrap: wrap;
+			span{
+				order: 1;
+			}
+			label{
+				order: 2;
+				margin-left: -25px;
+			}
+		}
+	}
+}
+
+.reset-form{
+
+	.button-wrap{
+		 display: flex;
+		 flex-wrap: wrap;
+		 align-items: center;
+		 justify-content: space-between;
+	}
+
+	.generate-password{
+		border: 1px solid $accent_color;
+		 border-radius: 25px;
+		 padding: 9px 25px;
+		 font-size: 15px;
+		 line-height: 20px;
+		 font-weight: 500;
+		 color: $accent_color;
+	}
+	.generate-password:hover{
+		color: #fff;
+		background-color: $accent_color;
+	}
+
+	.control-password{
+		position: relative;
+		margin-bottom: 25px;
+		span{
+			position: absolute;
+			 top: 0;
+			 right: 0;
+			 bottom: 0;
+			 line-height: 25px;
+			 padding: 0 10px;
+			 cursor: pointer;
+			 i{
+				 vertical-align: -10px;
+			 }
+		}
+		span.active i:before{
+			content: '\f070';
+		}
+	}
+}
+
+.form-group .nice-select,
+.woocommerce-ordering .nice-select{
+	border: 0;
+	padding-left: 0;
+	padding-right: 20px;
+
+	.list{
+		left: auto;
+		right: 0;
+		z-index: 999;
+	}
+
+	&:after{
+		border-bottom: 1px solid $primary_color;
+		border-right: 1px solid $primary_color;
+		height: 7px;
+		width: 7px;
+		right: 3px;
+		margin-top: -6px;
+	}
+
+	span{
+		color: $primary_color;
+		font-size: 16px;
+		font-weight: 500;
+	}
+
+}
+
+@media (min-width: 1200px) {
+    .sidebar-left .inner-sidebar {
+        padding-right: 30px;
+    }
+
+    .sidebar-right .inner-sidebar {
+        padding-left: 30px;
+    }
+
+    .container.container-boxed {
+        max-width: 1030px;
+    }
+}
+
+@media (max-width: 1200px) {
+	.sidebar-right{
+		padding-top: 60px;
+	}
+}
+
+@media (min-width: 992px) {
+    #secondary {
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+}
+
+@media (max-width: 992px) {
+	#secondary,
+	#secondary.sidebar-blog-archive {
+		padding-top: 40px;
+		 flex: 0 0 100%;
+		 max-width: 100%;
+	}
+	.elementor-widget-tabs.layout-01{
+		.elementor-tab-title{
+			padding: 16px 20px;
+		}
+		.elementor-tabs-content-wrapper .elementor-tab-content{
+			padding: 30px;
+		}
+
+		.elementor-tabs-content-wrapper .elementor-tab-content {
+			.flex-left{
+				padding-right: 15px;
+			}
+			.flex-right{
+				padding-left: 15px;
+			}
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	.page-404-content{
+		padding: 40px 0;
+	}
+	.page-404-content .error-404-text{
+		margin-bottom: 30px;
+	}
+	.page-404-content .error-404-title{
+		font-size: 40px;
+	}
+	.site-header.header-float + .page-404-content {
+		padding-top: 40px;
+	}
+	.area-404 h2{
+		font-size: 32px;
+	}
+	.area-404 h3{
+		font-size: 18px;
+	}
+	.area-404 p{
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+	.site-content{
+		padding-bottom: 30px;
+	}
+	.translateY60{
+		transform: none;
+	}
+	.elementor-widget-tabs.layout-01 {
+		.elementor-tabs-content-wrapper .elementor-tab-content {
+			padding: 20px 0 0;
+
+			.flex{
+				flex-direction: column;
+			}
+
+			.flex-left, .flex-right{
+				-webkit-box-flex: 0;
+				-ms-flex: 0 0 100%;
+				flex: 0 0 100%;
+				max-width: 100%;
+				padding: 0;
+				margin-bottom: 20px;
+			}
+		}
+		.elementor-tab-title{
+			border-left: 0;
+			border-right: 0;
+		}
+	}
+}

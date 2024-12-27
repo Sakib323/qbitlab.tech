@@ -1,0 +1,73 @@
+.sala-chart{
+	display: flex;
+	align-items: center;
+	.item{
+		padding: 8px 0;
+	}
+}
+.chart-list{
+	display: flex;
+	align-items: center;
+	margin-left: 80px;
+
+	.icon{
+		width: 30px;
+		height: 8px;
+		margin-right: 20px;
+		border-radius: 4px;
+		background-color: #c6db03;
+	}
+
+	.text{
+		font-size: 18px;
+	}
+}
+.pie-chart {
+	position: relative;
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+	margin: 0;
+	order: 1;
+}
+.sala-chart-list{
+	order: 2;
+}
+
+.sala-chart.circle-right{
+	.chart-list{
+		margin-left: 0;
+		margin-right: 80px;
+	}
+	.pie-chart {
+		order: 2;
+	}
+	.sala-chart-list{
+		order: 1;
+	}
+}
+
+@include elementor-breakpoint-down(sm) {
+	.sala-chart{
+		flex-direction: column;
+	}
+	.pie-chart{
+		width: 270px;
+		height: 270px;
+	}
+	.sala-chart-list{
+		margin: 20px 0 0 0;
+		.chart-list{
+			margin: 0;
+		}
+	}
+
+	.sala-chart.circle-right{
+		.sala-chart-list{
+			margin: 0 0 20px 0;
+			.chart-list{
+				margin: 0;
+			}
+		}
+	}
+}

@@ -1,0 +1,132 @@
+.sala-list {
+	font-size: 0;
+	max-width: 100%;
+
+	.item {
+		font-size: 0;
+	}
+
+	.list-header {
+		display: flex;
+		align-items: center;
+	}
+
+	.link {
+		display: inline-block;
+		padding: 0;
+		// Use transition of children.
+		transition: none;
+	}
+
+	.icon {
+		@extend %NormalTransition;
+		flex-shrink: 0;
+		font-size: 14px;
+		margin-right: 10px;
+		line-height: 1;
+	}
+
+	.text {
+		@extend %NormalTransition;
+		font-size: 15px;
+		margin-bottom: 0;
+		span{
+			font-weight: 500px;
+			color: #fff;
+			display: block;
+		}
+	}
+	.badge {
+		display: inline-block;
+		border-radius: 2px;
+		padding: 4px 8px 3px;
+		background: #333;
+		color: #fff;
+		font-size: 11px;
+		line-height: 1;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.5px;
+		margin: 0 0 0 7px;
+	}
+}
+
+.scrollbar {
+	.sala-list{
+		height: 250px;
+		overflow-y: auto;
+		overflow-x: hidden;
+		scrollbar-color: #0057FC #EEEEEE;
+		scrollbar-width: thin !important;
+	}
+	.sala-list::-webkit-scrollbar {
+		width: 2px;
+	}
+
+	.sala-list::-webkit-scrollbar-track {
+		background-color: #EEEEEE;
+	}
+
+	.sala-list::-webkit-scrollbar-thumb {
+		background-color: $accent_color;
+	}
+}
+
+.sala-list-layout-inline {
+	.sala-list {
+		margin-left: -15px;
+		margin-right: -15px;
+
+		.item {
+			display: inline-block;
+			padding: 0 15px;
+			margin-bottom: 12px;
+		}
+	}
+}
+
+.sala-list-layout-columns {
+	.sala-list {
+		position: relative;
+		min-height: 1px;
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.item {
+		padding: 0 15px;
+		flex-grow: 1;
+		flex: 1 1 50%;
+
+		&:nth-child(2) {
+			~ .item {
+				margin-top: 11px;
+			}
+		}
+	}
+}
+
+.sala-list-style-icon-border {
+	.sala-icon {
+		border: 2px solid currentColor;
+		border-radius: 50%;
+		padding: 0.313em;
+	}
+}
+
+.elementor-section .elementor-element .sala-list{
+	.item {
+		&.active{
+			.icon{
+				background-color: $accent_color;
+				border-color: $accent_color;
+				color: #fff;
+			}
+			.text{
+				color: $accent_color;
+			}
+		}
+	}
+}

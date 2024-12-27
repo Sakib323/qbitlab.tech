@@ -1,0 +1,393 @@
+header.site-header {
+	display: flex;
+    align-items: center;
+	position: relative;
+	z-index: 3;
+	color: $primary_color;
+	background-color: #fff;
+	min-height: 100px;
+
+	.sala-builder {
+		width: 100%;
+	}
+
+	.row {
+		margin: 0 auto;
+		flex-wrap: nowrap;
+		padding: 0;
+	}
+
+	.container-fluid {
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+
+	&.header-sticky.scroll {
+		position: -webkit-sticky;
+		position: sticky;
+		top: -100%;
+		@include transition-03;
+	}
+
+	&.header-sticky.on {
+		position: -webkit-sticky;
+		position: sticky;
+		width: 100%;
+		top: 0;
+		left: 0;
+		z-index: 10;
+		@include box-shadow(0px 5px 15px -5px rgba(0, 0, 0, 0.2));
+		@include transition-03;
+
+		&.has-wpadminbar {
+			top: 32px;
+		}
+	}
+
+	&.header-sticky.header-float.on {
+		position: fixed;
+	}
+
+	&.header-float:not(.on) {
+		background: transparent;
+		position: absolute;
+		z-index: 10;
+		width: 100%;
+		@include transition-03;
+		@include box-shadow(none);
+	}
+
+	&.header-light {
+		background-color: #fff;
+		color: $primary_color;
+		@include box-shadow(0 3px 9px rgba(0, 0, 0, 0.05));
+
+		.site-menu:not(.mobile-menu) .menu > li > a {
+			color: $primary_color;
+		}
+
+		.header-button a {
+			color: #fff;
+		}
+	}
+
+	&.header-dark {
+		background-color: $primary_color;
+		color: #fff;
+
+		.column-wrap a {
+			color: #fff;
+		}
+
+		.children.simple-menu,
+		.children .elementor-widget-wrap{
+			background-color: #151419 !important;
+		}
+
+		.main-menu.desktop-menu .elementor-widget-heading .elementor-heading-title{
+			color: #fff !important;
+		}
+
+		svg{
+			path[fill="#111111"]{
+				fill: #ffffff;
+			}
+
+			g[fill="#111111"]{
+				fill: #ffffff;
+			}
+		}
+
+		.area-menu .menu{
+			border-color: #333333;
+		}
+	}
+
+	.column-wrap {
+		display: flex;
+		align-items: center;
+
+		>div {
+			padding: 0 15px;
+		}
+	}
+
+	.center-header {
+		justify-content: center;
+	}
+
+	.right-header {
+		justify-content: flex-end;
+	}
+
+	&.header-fullwidth {
+
+		.row {
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+		.column-wrap {
+			padding: 0;
+		}
+
+		.sala-builder.container-fluid {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
+	&.header-01 {
+
+		.site-logo {
+			padding-right: 30px;
+		}
+
+		.main-menu.desktop-menu .menu > li > a {
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+	}
+}
+
+.header-lang {
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: uppercase;
+	line-height: 1.6;
+
+	.chosen-lang {
+		position: relative;
+		z-index: 1;
+	}
+
+	select {
+		text-transform: uppercase;
+		background: transparent;
+		border: 0;
+		outline: 0;
+		cursor: pointer;
+		padding-right: 17px;
+		padding-left: 0;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		@include transition-03;
+	}
+
+	.inner-lang {
+		position: relative;
+
+		.chosen-lang:before {
+			content: "\f107";
+			font-size: 12px;
+			font-weight: 400;
+			font-family: "Font Awesome 5 Pro";
+			position: absolute;
+			right: 0;
+			top: 50%;
+			@include transform(translate(0, -50%));
+			@include transition-03;
+		}
+
+		&:hover {
+			select,
+			&:before {
+				color: $accent_color;
+				@include transition-03;
+			}
+		}
+	}
+}
+
+.header-device {
+	display: flex;
+
+	&.line > span {
+		display: inline-block;
+		width: 1px;
+		height: 30px;
+		background: #0d0909;
+	}
+}
+
+.header-contact {
+
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	ul li {
+		display: flex;
+		align-items: center;
+		margin-right: 25px;
+		margin-top: 0;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	a {
+		display: flex;
+		align-items: center;
+	}
+
+	a i {
+		font-size: 16px;
+	}
+
+	a span {
+		font-size: 15px;
+		font-weight: 500;
+	}
+
+	i + span {
+		margin-left: 8px;
+	}
+}
+
+.header-search-icon {
+
+	.icon-search a {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+.header-button-01.icon-on-mobile .sala-button i{
+	display: none;
+}
+
+.minicart {
+
+	a.toggle {
+		font-size: 24px;
+		display: inline-flex;
+		align-items: center;
+		i {
+			font-size: 16px;
+		}
+	}
+
+	a.toggle span.cart-count {
+		font-size: 18px;
+		font-weight: 500;
+		margin-left: 5px;
+		color: $accent_color;
+		position: relative;
+		top: -1px;
+	}
+
+	.area-menu .inner-menu{
+		-ms-overflow-style: none;
+  		scrollbar-width: none;
+	}
+
+	.area-menu .inner-menu::-webkit-scrollbar {
+		display: none;
+	}
+
+	.widget_shopping_cart_content{
+		padding: 100px 50px 0;
+		.inner-product h4 a,
+		span,strong{
+			color: #ffffff;
+		}
+
+		.woocommerce-mini-cart li{
+			border-color: #333333;
+		}
+
+		.woocommerce-mini-cart__buttons a{
+			height: 60px;
+			line-height: 60px;
+			padding: 0 20px;
+			text-align: center;
+			display: block;
+			&:hover{
+				background-color: #333333;
+			}
+		}
+
+		.woocommerce-mini-cart__buttons a.checkout{
+			background-color: $accent_color;
+			color: #ffffff;
+			&:hover{
+				background-color: #1043B2;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+	header.site-header.header-02 .main-row .left-header {
+		padding-left: 15px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	header.site-header.header-04 .main-row {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	header.site-header .container-fluid {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	header.site-header.header-sticky.on.has-wpadminbar {
+		top: 0;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	header.site-header .column-wrap > div {
+		padding: 0 10px;
+	}
+
+	header.site-header.header-02 {
+
+		.main-row .left-header {
+			padding-left: 15px;
+		}
+	}
+
+	.header-button-01 {
+
+		&.icon-on-mobile .sala-button i{
+			display: inline-block;
+			vertical-align: -4px;
+			margin-left: 3px;
+		}
+
+		.sala-button {
+			font-size: 0;
+			letter-spacing: inherit;
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+			text-align: center;
+			justify-content: center;
+			padding: 0!important;
+
+			i {
+				font-size: 15px;
+				margin: 0;
+			}
+		}
+	}
+
+	header.site-header.header-01 .site-logo{
+		padding: 0 10px;
+	}
+}

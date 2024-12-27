@@ -1,0 +1,19 @@
+.elementor-widget-sala-shape-divider,
+.elementor-widget-sala-shape-divider .elementor-widget-container{
+	position: absolute !important;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+}
+.shape-divider{
+	position: absolute;
+	top: 0;
+	right: -90px;
+	bottom: 0;
+	background: radial-gradient(circle at 224% 25%, rgba(255, 255, 255, 0) 67%, rgba(255, 255, 255, 0) 50%, #0057fc 50%, #0057fc 100%);
+	background-size: 200% 200%;
+	height: 100%;
+	width: 200px;
+	z-index: 1;
+}

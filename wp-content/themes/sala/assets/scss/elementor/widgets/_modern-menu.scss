@@ -1,0 +1,92 @@
+.elementor-widget-sala-modern-menu .mb-menu {
+	display: none;
+	margin-right: 0;
+}
+
+.elementor-widget-sala-modern-menu .desktop-menu {
+	display: flex;
+}
+
+.elementor-nav-menu__align-center.elementor-widget-sala-modern-menu .desktop-menu {
+	justify-content: center;
+}
+
+.elementor-nav-menu__align-left.elementor-widget-sala-modern-menu .desktop-menu {
+	justify-content: start;
+}
+
+.elementor-nav-menu__align-right.elementor-widget-sala-modern-menu .desktop-menu {
+	justify-content: end;
+}
+
+.elementor-nav-menu__align-justify.elementor-widget-sala-modern-menu .desktop-menu {
+	justify-content: center;
+}
+
+.elementor-widget-sala-modern-menu .site-menu.main-menu .sub-menu li {
+	padding: 0;
+}
+
+.elementor-widget-sala-modern-menu .elementor-nav-menu--layout-dropdown.desktop-menu {
+	display: none;
+}
+
+.elementor-widget-sala-modern-menu .elementor-nav-menu--layout-dropdown.mb-menu {
+	display: flex;
+}
+
+@media only screen and (max-width: 1024px) {
+
+	.sala-modern-menu-tablet {
+
+		.desktop-menu {
+			display: none;
+		}
+
+		.mb-menu {
+			display: flex;
+		}
+	}
+}
+
+@media only screen and (max-width: 991px) {
+
+	.sala-modern-menu-tablet_small {
+
+		.desktop-menu {
+			display: none;
+		}
+
+		.mb-menu {
+			display: flex;
+		}
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+	.sala-modern-menu-mobile {
+
+		.desktop-menu {
+			display: none;
+		}
+
+		.mb-menu {
+			display: flex;
+		}
+	}
+}
+
+@media only screen and (max-width: 479px) {
+
+	.sala-modern-menu-mobile_small {
+
+		.desktop-menu {
+			display: none;
+		}
+
+		.mb-menu {
+			display: flex;
+		}
+	}
+}

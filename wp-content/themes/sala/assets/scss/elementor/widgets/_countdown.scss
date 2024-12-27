@@ -1,0 +1,45 @@
+.countdown-items {
+	display: inline-block;
+	background-color: transparent;
+
+	.ctw-digits{
+		display: block;
+		font-size: 56px;
+		font-weight: 600;
+		text-align:left;
+		color: #fff;
+
+		span{
+			vertical-align: -4px;
+		}
+	}
+
+	.ctw-label {
+		display: block;
+		text-align: left;
+		color: #fff;
+		font-size: 16px;
+	}
+}
+
+.finished-message{
+  text-align:center;
+  color: #fff;
+  margin: 10px 0 0 0;
+}
+
+/* media query css */
+@media(max-width: 493px) {
+	.countdown-items {
+		width: 20%;
+		.ctw-digits{
+			font-size:22px;
+			span{
+				vertical-align: -1px;
+			}
+		}
+		.ctw-label{
+			font-size:12px;
+		}
+	}
+}

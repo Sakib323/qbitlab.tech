@@ -1,0 +1,161 @@
+.uxper-tabpanel.uxper-tabpanel-vertical:after, .uxper-tabpanel.uxper-tabpanel-horizontal > .uxper-nav-tabs:after {
+    display: table;
+    content: "";
+    clear: both
+}
+
+.uxper-tabpanel > .uxper-nav-tabs li a i {
+    -webkit-transform: translate(0, -50%);
+    -khtml-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%)
+}
+
+.postbox .inside > .uxper-tabpanel {
+    margin: -6px -12px -12px;
+    border-left: 0;
+    border-right: 0
+}
+
+.uxper-tabpanel {
+    margin-bottom: 20px
+}
+
+.uxper-tabpanel.uxper-tabpanel-vertical {
+    background: #fff url(../images/icons/bg-tabpanel.png) repeat-y -40px 0
+}
+
+.uxper-tabpanel.uxper-tabpanel-vertical > .uxper-nav-tabs {
+    width: 200px;
+    float: left;
+    z-index: 1;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: -1px
+}
+
+.uxper-tabpanel.uxper-tabpanel-vertical > .uxper-nav-tabs li {
+    border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5
+}
+
+.uxper-tabpanel.uxper-tabpanel-vertical > .uxper-nav-tabs li:last-child {
+    border-bottom: none
+}
+
+.uxper-tabpanel.uxper-tabpanel-vertical > .uxper-nav-tabs li.active {
+    border-right: #fcfcfc;
+    margin-right: -1px
+}
+
+.uxper-tabpanel.uxper-tabpanel-vertical > .uxper-nav-tabs li.active a {
+    border-left: 5px solid #36485f;
+}
+
+.uxper-tabpanel.uxper-tabpanel-vertical > .uxper-tab-content {
+    width: calc(100% - 200px);
+    border-left: 1px solid #e5e5e5;
+    float: left;
+    margin-left: -1px
+}
+
+.uxper-tabpanel.uxper-tabpanel-horizontal > .uxper-nav-tabs {
+    background: #f1f1f1
+}
+
+.uxper-tabpanel.uxper-tabpanel-horizontal > .uxper-nav-tabs li {
+    display: inline-flex;
+    float: left;
+    border-right: 1px solid #e5e5e5
+}
+
+.uxper-tabpanel.uxper-tabpanel-horizontal > .uxper-nav-tabs li a {
+    border-bottom: 1px solid #e5e5e5
+}
+
+.uxper-tabpanel.uxper-tabpanel-horizontal > .uxper-nav-tabs li.active a {
+    border-bottom-color: #fcfcfc;
+    border-top: 5px solid #36485f;
+    margin-top: -1px;
+    padding: 6px 15px 10px 30px
+}
+
+.uxper-tabpanel > .uxper-nav-tabs {
+    margin: 0
+}
+
+.uxper-tabpanel > .uxper-nav-tabs li {
+    margin-bottom: 0
+}
+
+.uxper-tabpanel > .uxper-nav-tabs li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px 10px 30px;
+    background: #f1f1f1;
+    position: relative;
+    color: #333;
+    min-height: 38px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-left: 5px solid transparent;
+}
+
+.uxper-tabpanel > .uxper-nav-tabs li a:focus {
+    box-shadow: none
+}
+
+.uxper-tabpanel > .uxper-nav-tabs li a:hover {
+    color: #36485f;
+}
+
+.uxper-tabpanel > .uxper-nav-tabs li a i {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    font-size: 18px
+}
+
+.uxper-tabpanel > .uxper-nav-tabs li.active a {
+    color: #36485f;
+    background: #fff;
+}
+
+.uxper-tabpanel > .uxper-tab-content {
+    background: #fff
+}
+
+.uxper-tabpanel .tab {
+    display: none;
+    padding: 20px
+}
+
+.uxper-tabpanel .tab.active {
+    display: block
+}
+
+@media (max-width: 767px) {
+    .uxper-tabpanel.uxper-tabpanel-vertical {
+        background-position: -200px 0
+    }
+
+    .uxper-tabpanel.uxper-tabpanel-vertical > .uxper-nav-tabs {
+        width: 40px
+    }
+
+    .uxper-tabpanel.uxper-tabpanel-vertical > .uxper-nav-tabs a {
+        padding: 0
+    }
+
+    .uxper-tabpanel.uxper-tabpanel-vertical > .uxper-nav-tabs .nav-tab-title {
+        display: none
+    }
+
+    .uxper-tabpanel.uxper-tabpanel-vertical > .uxper-tab-content {
+        width: calc(100% - 40px)
+    }
+}
+
+/*# sourceMappingURL=tabpanel.css.map */

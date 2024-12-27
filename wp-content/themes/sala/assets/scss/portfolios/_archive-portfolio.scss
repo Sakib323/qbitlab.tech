@@ -1,0 +1,262 @@
+.sala-portfolio-grid {
+
+	.portfolio-title a {
+		font-size: 24px;
+		line-height: 1.57;
+	}
+
+	.sala-portfolio-card.portfolio {
+		position: relative;
+
+		.portfolio-thumbnail{
+			margin-bottom: 0;
+		}
+		.portfolio-thumbnail + .portfolio-detail{
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 0 24px 26px;
+			.portfolio-taxonomy li:after{
+				color: #fff;
+			}
+			.portfolio-title a{
+				font-size: 24px;
+			}
+			a,
+			.portfolio-excerpt p{
+				color: #fff;
+			}
+			.portfolio-meta .portfolio-cate{
+				margin-bottom: 3px;
+			}
+			.btn-readmore{
+				margin-top: 20px;
+			}
+		}
+	}
+}
+
+.sala-portfolio-masonry {
+
+	.portfolio-thumbnail {
+		margin-bottom: 0;
+	}
+
+	.portfolio-title a {
+		font-size: 24px;
+		line-height: 1.57;
+	}
+
+	.sala-portfolio-box.portfolio,
+	.sala-portfolio-box-background.portfolio{
+		.portfolio-detail{
+			padding: 25px;
+			border: solid 1px #eeeeee;
+			border-radius: 0 0 5px 5px;
+		}
+	}
+	.sala-portfolio-box-background.portfolio{
+		.portfolio-detail{
+			background-color: #f9f9f9;
+			border: 0;
+		}
+	}
+}
+
+.sala-portfolio-taxonomy {
+	text-align: center;
+	margin-bottom: 60px;
+
+	ul {
+		padding-left: 0;
+		margin: -10px -20px;
+		overflow: hidden;
+	}
+
+	li {
+		list-style: none;
+		display: inline-block;
+		margin: 10px 20px;
+
+		a {
+			font-size: 16px;
+			font-weight: 500;
+			line-height: 1.63;
+			padding-bottom: 10px;
+			border-bottom: 1px solid transparent;
+		}
+	}
+
+	li.active {
+
+		a {
+			display: block;
+			position: relative;
+			color: $accent_color;
+			border-color: $accent_color;
+		}
+	}
+}
+
+.sala-portfolio-default{
+	.entry-title{
+		font-size: 32px;
+	}
+}
+
+.sala-minimal.sala-portfolio,
+.sala-modern.sala-portfolio{
+
+	.inner-portfolio-wrap{
+		position: relative;
+		overflow: hidden;
+	}
+
+	.portfolio-detail{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		padding: 40px;
+		background-image: linear-gradient(rgba(238, 238, 238, 0), rgba(4, 4, 4, 0.5));
+	}
+
+	a,p{
+		color: #fff;
+	}
+}
+
+.sala-modern.sala-portfolio{
+
+	.portfolio-detail{
+		opacity: 0;
+		visibility: hidden;
+		transition: all 0.3s;
+		bottom: -50px;
+	}
+
+	.sala-box:hover{
+
+		.portfolio-detail{
+			opacity: 1;
+			visibility: visible;
+			bottom: 0;
+		}
+
+	}
+}
+
+.sala-portfolio-mosaic{
+
+	display: grid;
+	grid-gap: 60px;
+	align-items: center;
+
+	.grid-sizer {
+		width: 50%;
+	}
+
+	.portfolio:nth-child(4n+1),
+	.type-portfolio:nth-child(4n+1){
+		padding-left: 60px;
+	}
+
+	.portfolio:nth-child(4n+2),
+	.type-portfolio:nth-child(4n+2){
+		padding-right: 60px;
+	}
+
+}
+
+.sala-portfolio-masonry{
+	margin-bottom: 60px;
+}
+
+.sala-portfolio-metro{
+	display: grid;
+	grid-gap: 60px;
+
+	.inner-portfolio-wrap{
+		width: 100%;
+	}
+
+	.portfolio,
+	.type-portfolio{
+		width: 50%;
+		margin-bottom: 60px;
+	}
+
+	.portfolio:nth-child(6n+2),
+	.type-portfolio:nth-child(6n+2) {
+		width: calc( 70% - 30px );
+	}
+	.portfolio:nth-child(6n+3),
+	.type-portfolio:nth-child(6n+3) {
+		width: calc( 30% - 30px );
+	}
+	.portfolio:nth-child(6n),
+	.type-portfolio:nth-child(6n) {
+		width: calc( 30% - 30px );
+	}
+	.portfolio:nth-child(6n+1),
+	.type-portfolio:nth-child(6n+1) {
+		width: calc( 70% - 30px );
+	}
+	.portfolio:nth-child(6n+4),
+	.type-portfolio:nth-child(6n+4) {
+		width: calc( 50% - 30px );
+	}
+	.portfolio:nth-child(6n+5),
+	.type-portfolio:nth-child(6n+5) {
+		width: calc( 50% - 30px );
+	}
+
+}
+
+@media (max-width: 767px) {
+	.sala-portfolio-taxonomy{
+		margin-bottom: 40px;
+	}
+	.sala-portfolio-taxonomy ul{
+		margin: 0;
+	}
+	.sala-portfolio-taxonomy li{
+		margin: 0 10px 5px;
+	}
+	.sala-grid.sala-portfolio{
+		display: block;
+		grid-gap: 30px;
+		.inner-portfolio-wrap{
+			width: 100%;
+		}
+	}
+	.sala-portfolio-mosaic .portfolio:nth-child(4n+2),
+	.sala-portfolio-mosaic .portfolio:nth-child(4n+1),
+	.sala-portfolio-mosaic .type-portfolio:nth-child(4n+1),
+	.sala-portfolio-mosaic .type-portfolio:nth-child(4n+2){
+		padding: 0;
+	}
+	.sala-grid .grid-item{
+		margin-bottom: 30px !important;
+	}
+
+	.sala-grid.sala-portfolio-masonry .grid-item{
+		margin-bottom: 0px !important;
+	}
+
+	.sala-portfolio-metro{
+
+		.portfolio,
+		.type-portfolio{
+			width: 100% !important;
+			margin-bottom: 30px;
+		}
+
+	}
+
+	.sala-minimal.sala-portfolio .portfolio-detail,
+	.sala-modern.sala-portfolio .portfolio-detail{
+		padding: 25px;
+	}
+}

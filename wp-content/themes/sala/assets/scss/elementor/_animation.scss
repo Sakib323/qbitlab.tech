@@ -1,0 +1,667 @@
+/* Loop Animations */
+// Buzz Out
+@keyframes sala-animation-buzz-out {
+	10% {
+		transform: translateX(3px) rotate(2deg);
+	}
+	20% {
+		transform: translateX(-3px) rotate(-2deg);
+	}
+	30% {
+		transform: translateX(3px) rotate(2deg);
+	}
+	40% {
+		transform: translateX(-3px) rotate(-2deg);
+	}
+	50% {
+		transform: translateX(2px) rotate(1deg);
+	}
+	60% {
+		transform: translateX(-2px) rotate(-1deg);
+	}
+	70% {
+		transform: translateX(2px) rotate(1deg);
+	}
+	80% {
+		transform: translateX(-2px) rotate(-1deg);
+	}
+	90% {
+		transform: translateX(1px) rotate(0);
+	}
+	100% {
+		transform: translateX(-1px) rotate(0);
+	}
+}
+
+@keyframes sala-loop-move-vertical {
+	0% {
+		transform: translate3d(0, -10px, 0);
+	}
+	100% {
+		transform: translate3d(0, 10px, 0);
+	}
+}
+
+.loop-move-vertical {
+	animation: 3s sala-loop-move-vertical linear infinite alternate;
+}
+
+@keyframes sala-loop-move-horizontal {
+	0% {
+		transform: translate3d(-10px, 0, 0);
+	}
+	100% {
+		transform: translate3d(10px, 0, 0);
+	}
+}
+
+.loop-move-horizontal {
+	animation: 3s sala-loop-move-horizontal linear infinite alternate;
+}
+
+@keyframes sala-loop-rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(-360deg);
+	}
+}
+
+.loop-rotate {
+	animation: 3s sala-loop-rotate linear infinite;
+}
+
+/* Hover Animations */
+.sala-image {
+	@extend %NormalTransition;
+}
+
+.sala-animation-zoom-in {
+
+	.sala-image {
+		overflow: hidden;
+
+		img {
+			width: 100%;
+            @include transition(all 1.5s cubic-bezier(0, 0, .2, 1));
+		}
+
+        .swiper-inner {
+            @include transition(all 1.5s cubic-bezier(0, 0, .2, 1));
+
+            img {
+                transform: none!important;
+                transition: none!important;
+            }
+        }
+	}
+
+	.sala-box:hover .sala-image {
+
+        img,.swiper-inner {
+            transform: scale3d(1.1, 1.1, 1.1);
+        }
+    }
+}
+
+.sala-animation-zoom-out {
+
+	.sala-image {
+		overflow: hidden;
+
+		img {
+			width: 100%;
+			@include transition(all 1.5s cubic-bezier(0, 0, .2, 1));
+            @include transform(scale3d(1.1, 1.1, 1.1));
+		}
+
+        .swiper-inner {
+            @include transition(all 1.5s cubic-bezier(0, 0, .2, 1));
+			@include transform(scale3d(1.1, 1.1, 1.1));
+
+            img {
+                transform: none!important;
+                transition: none!important;
+            }
+        }
+	}
+
+	.sala-box:hover .sala-image {
+
+        img,.swiper-inner {
+            @include transform(scale3d(1, 1, 1));
+        }
+    }
+}
+
+.sala-animation-move-up {
+	.sala-box {
+		.sala-image {
+			transition: all .3s cubic-bezier(0, 0, .2, 1);
+		}
+
+		&:hover {
+			.sala-image {
+				transform: translateY(-10px);
+			}
+		}
+	}
+}
+
+.sala-animation-move-up-drop-shadow {
+	.sala-box {
+		.sala-image {
+			position: relative;
+			transition: all .3s cubic-bezier(0, 0, .2, 1);
+
+			&:after {
+				content: '';
+				position: absolute;
+				bottom: 0;
+				top: 50%;
+				left: 10%;
+				right: 10%;
+				box-shadow: 0 10px 50px rgba(51, 51, 51, .22);
+				z-index: -1;
+				opacity: 0;
+				transition: opacity .3s linear;
+			}
+		}
+
+		&:hover {
+			.sala-image {
+				transform: translateY(-10px);
+
+				&:after {
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+
+/* Entrance Animations */
+@keyframes salaAnimationFadeInUp {
+	from {
+		opacity: 0;
+		transform: translate3d(0, 30px, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+.salaFadeInUp {
+	animation-name: salaAnimationFadeInUp;
+
+	&.animated {
+		animation-duration: 1s;
+	}
+}
+
+/* Entrance Animations */
+@keyframes salaAnimationFadeInDown {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -30px, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+.salaFadeInDown {
+	animation-name: salaAnimationFadeInDown;
+
+	&.animated {
+		animation-duration: 1s;
+	}
+}
+
+/* Entrance Animations */
+@keyframes salaAnimationFadeInleft {
+	from {
+		opacity: 0;
+		transform: translate3d(-30px, 0, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+.salaFadeInLeft {
+	animation-name: salaAnimationFadeInleft;
+
+	&.animated {
+		animation-duration: 1s;
+	}
+}
+
+/* Entrance Animations */
+@keyframes salaAnimationFadeInRight {
+	from {
+		opacity: 0;
+		transform: translate3d(30px, 0, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+.salaFadeInRight {
+	animation-name: salaAnimationFadeInRight;
+
+	&.animated {
+		animation-duration: 1s;
+	}
+}
+
+.sala-elementor-loading:not(.elementor-section-boxed) {
+	overflow: hidden;
+
+	.elementor-invisible {
+		visibility: visible;
+	}
+
+	img,.elementor-video,.slide-bg {
+		transform: scale(1.2);
+		transform-origin: center center;
+		transition: transform 0s .6s;
+		will-change: transform;
+	}
+
+	>.elementor-widget-container,>.elementor-widget-wrap,>.elementor-container {
+    	transition: transform .6s cubic-bezier(.7,.085,.79,.415) .35s!important;
+		overflow: hidden;
+
+		&:after {
+			content: '';
+			background-color: $accent_color;
+			position: absolute;
+			right: 0;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			transform: scaleX(1);
+			transform-origin: right center;
+			transition: transform .6s cubic-bezier(.7,.085,.79,.415);
+			will-change: transform;
+			z-index: 1;
+		}
+	}
+
+	.elementor-wrapper {
+		opacity: 0;
+		transition: transform .6s cubic-bezier(.7,.085,.79,.415) .35s;
+		will-change: transform;
+	}
+
+	&.sala-slide-in-up {
+
+		>.elementor-widget-container,>.elementor-widget-wrap,>.elementor-container {
+			transform: translate3d(0, 100%, 0)!important;
+
+			&:after {
+				transform-origin: left bottom;
+			}
+		}
+
+		.elementor-wrapper {
+			transform: translate3d(0, 100%, 0);
+		}
+	}
+
+	&.sala-slide-in-left {
+
+		>.elementor-widget-container,>.elementor-widget-wrap,>.elementor-container {
+			transform: translate3d(100%, 0, 0)!important;
+
+			&:after {
+				transform-origin: left center;
+			}
+		}
+
+		.elementor-wrapper {
+			transform: translate3d(100%, 0, 0);
+		}
+	}
+
+	&.sala-slide-in-right {
+
+		>.elementor-widget-container,>.elementor-widget-wrap,>.elementor-container {
+			transform: translate3d(-100%, 0, 0)!important;
+
+			&:after {
+				transform-origin: right center;
+			}
+		}
+
+		.elementor-wrapper {
+			transform: translate3d(-100%, 0, 0);
+		}
+	}
+
+	&.sala-slide-in-down {
+
+		>.elementor-widget-container,>.elementor-widget-wrap,>.elementor-container {
+			transform: translate3d(0, -100%, 0)!important;
+
+			&:after {
+				transform-origin: left top;
+			}
+		}
+
+		.elementor-wrapper {
+			transform: translate3d(0, -100%, 0);
+		}
+	}
+
+	&.animated {
+
+		img,.elementor-video,.slide-bg {
+			transform: scale(1);
+			transition: transform 1.3s cubic-bezier(.34,.615,.4,.985) .3s;
+		}
+
+		>.elementor-widget-container,>.elementor-widget-wrap,>.elementor-container {
+			transform: translate3d(0, 0, 0)!important;
+			transition: transform .6s cubic-bezier(.565,.43,.24,.92) 0.2s!important;
+		}
+
+		>.elementor-widget-container:after,>.elementor-widget-wrap:after,>.elementor-container:after {
+			transition: transform .8s cubic-bezier(.565,.43,.24,.92) .65s;
+		}
+
+		.elementor-wrapper {
+			opacity: 1;
+			transform: translate3d(0, 0, 0);
+			transition: transform .6s cubic-bezier(.565,.43,.24,.92);
+		}
+
+		&.sala-slide-in-down {
+
+			>.elementor-widget-container:after,>.elementor-widget-wrap:after,>.elementor-container:after {
+				transform-origin: left bottom;
+				transform: scaleY(0);
+			}
+		}
+
+		&.sala-slide-in-right {
+
+			>.elementor-widget-container:after,>.elementor-widget-wrap:after,>.elementor-container:after {
+				transform-origin: right center;
+				transform: scaleX(0);
+			}
+		}
+
+		&.sala-slide-in-left {
+
+			>.elementor-widget-container:after,>.elementor-widget-wrap:after,>.elementor-container:after {
+				transform-origin: left center;
+				transform: scaleX(0);
+			}
+		}
+
+		&.sala-slide-in-up {
+
+			>.elementor-widget-container:after,>.elementor-widget-wrap:after,>.elementor-container:after {
+				transform-origin: left top;
+				transform: scaleY(0);
+			}
+		}
+	}
+}
+
+.sala-elementor-loading.elementor-section-boxed {
+	overflow: hidden;
+
+	.elementor-invisible {
+		visibility: visible;
+	}
+
+	&:after {
+		content: '';
+		background-color: $accent_color;
+		position: absolute;
+		right: 0;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		transform: scaleX(1);
+		transform-origin: right center;
+		transition: transform .6s cubic-bezier(.7,.085,.79,.415);
+		will-change: transform;
+		z-index: 1;
+	}
+
+	>.elementor-container {
+    	transition: transform .6s cubic-bezier(.7,.085,.79,.415) .35s!important;
+	}
+
+	.elementor-wrapper {
+		opacity: 0;
+		transition: transform .6s cubic-bezier(.7,.085,.79,.415) .35s;
+		will-change: transform;
+	}
+
+	&.sala-slide-in-up {
+
+		&:after {
+			transform-origin: left bottom;
+		}
+
+		>.elementor-container {
+			transform: translate3d(0, 100%, 0)!important;
+		}
+
+		.elementor-wrapper {
+			transform: translate3d(0, 100%, 0);
+		}
+	}
+
+	&.sala-slide-in-left {
+
+		&:after {
+			transform-origin: left center;
+		}
+
+		>.elementor-container {
+			transform: translate3d(100%, 0, 0)!important;
+		}
+
+		.elementor-wrapper {
+			transform: translate3d(100%, 0, 0);
+		}
+	}
+
+	&.sala-slide-in-right {
+
+		&:after {
+			transform-origin: right center;
+		}
+
+		>.elementor-container {
+			transform: translate3d(-100%, 0, 0)!important;
+		}
+
+		.elementor-wrapper {
+			transform: translate3d(-100%, 0, 0);
+		}
+	}
+
+	&.sala-slide-in-down {
+
+		&:after {
+			transform-origin: left top;
+		}
+
+		>.elementor-container {
+			transform: translate3d(0, -100%, 0)!important;
+		}
+
+		.elementor-wrapper {
+			transform: translate3d(0, -100%, 0);
+		}
+	}
+
+	&.animated {
+
+		&:after {
+			transition: transform .8s cubic-bezier(.565,.43,.24,.92) .45s;
+		}
+
+		>.elementor-container {
+			transform: translate3d(0, 0, 0)!important;
+			transition: transform .6s cubic-bezier(.565,.43,.24,.92) 0.2s!important;
+		}
+
+		.elementor-wrapper {
+			opacity: 1;
+			transform: translate3d(0, 0, 0);
+			transition: transform .6s cubic-bezier(.565,.43,.24,.92);
+		}
+
+		&.sala-slide-in-down:after {
+			transform-origin: left bottom;
+			transform: scaleY(0);
+		}
+
+		&.sala-slide-in-right:after {
+			transform-origin: right center;
+			transform: scaleX(0);
+		}
+
+		&.sala-slide-in-left:after {
+			transform-origin: left center;
+			transform: scaleX(0);
+		}
+
+		&.sala-slide-in-up:after {
+			transform-origin: left top;
+			transform: scaleY(0);
+		}
+	}
+}
+
+.sala-view-demo{
+	.sala-grid {
+		.grid-item {
+			opacity: 1;
+		}
+	}
+}
+
+/* Entrance Grid Animation */
+.sala-grid {
+	.grid-item {
+		opacity: 0;
+		transform: translate3d(0, 30px, 0);
+
+		&.animate {
+			transform: none;
+			opacity: 1;
+			// DO NOT apply transition all attributes to grid items. It's caused overlap layout on window resize.
+			transition: transform 1s ease-in-out, opacity 1s linear;
+		}
+	}
+}
+
+@-webkit-keyframes moveHorizontal {
+	0% {
+	}
+	100% {
+		-webkit-transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+@keyframes moveHorizontal {
+	0% {
+	}
+	100% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+.sala-jump{
+	--float-animation-ease: ease;
+	animation: lqdFIFloatOne 1s var(--float-animation-ease) infinite alternate;
+}
+
+.sala-elementor-loading.sala-jump:not(.elementor-section-boxed) > .elementor-widget-container::after{
+	background-color: transparent;
+}
+
+@keyframes lqdFIFloatOne {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(-3%);
+	}
+}
+
+body:not(.elementor-editor-active) {
+	.sala-grid {
+		.grid-item.type-portfolio {
+			opacity: 1;
+			overflow: hidden;
+			&:before,
+			&:after{
+				content: '';
+				position: absolute;
+				background-color: #ffffff;
+				z-index: 9;
+				width: 50%;
+				height: 100%;
+				top: 0%;
+				bottom: auto;
+				transition: all 1s;
+				transition-delay: 0.3s;
+			}
+			&:before{
+				left: 0%;
+				right: auto;
+			}
+			&:after{
+				right: 0%;
+				left: auto;
+			}
+
+			&.animate {
+				&:before{
+					display: flex;
+					transform: translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+					transform-style: preserve-3d;
+				}
+				&:after{
+					display: flex;
+					transform: translate3d(100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+					transform-style: preserve-3d;
+				}
+			}
+		}
+		.grid-item.type-post {
+			opacity: 0;
+			transform: translate3d(0, 30px, 0);
+
+			&.animate {
+				transform: none;
+				opacity: 1;
+				// DO NOT apply transition all attributes to grid items. It's caused overlap layout on window resize.
+				transition: transform 1s ease-in-out, opacity 1s linear;
+			}
+		}
+	}
+}

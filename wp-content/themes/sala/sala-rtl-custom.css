@@ -1,0 +1,91 @@
+.rtl{
+  direction: rtl;
+}
+
+.desktop-menu .sm-simple:not(.sm-vertical) .has-mega-menu .mega-menu{
+	margin-left: 0 !important;
+}
+
+.sala-form-location .field-select .form-input::after{
+	border-bottom: 2px solid #999;
+	border-left: 0;
+	left: 16px;
+	right: auto;
+}
+
+.sala-pricing-plan .toggle-wrap .discount .discount-text{
+	padding-left: 50px;
+	padding-right: 0;
+}
+
+.hover-icon-left .elementor-button:hover .elementor-align-icon-left {
+	margin-right: 18px !important;
+}
+
+form .layout-02 span.date::after{
+	right: 17px;
+	left: auto;
+}
+
+form .layout-01,
+.sala-contact-form-7 input,
+.sala-contact-form-7 input[type="tel"],
+.sala-contact-form-7 textarea{
+	text-align: right;
+}
+
+form .layout-01 p.form-submit{
+	width: 100%;
+	display: block;
+	text-align: right;
+}
+
+.sala-portfolio-mosaic .portfolio:nth-child(4n+1), .sala-portfolio-mosaic .type-portfolio:nth-child(4n+1){
+	padding-left: 60px;
+	padding-right: 0;
+}
+
+.sala-portfolio-mosaic .portfolio:nth-child(4n+2), .sala-portfolio-mosaic .type-portfolio:nth-child(4n+2) {
+    padding-right: 60px;
+	padding-left: 0;
+}
+
+.sala-blog .btn-readmore a{
+	display: inline-block;
+}
+
+.sala-blog .btn-readmore a::after{
+	content: '\f177';
+	top: -1px;
+	left: 0;
+}
+
+.form-group .nice-select::after, .woocommerce-ordering .nice-select::after{
+	border-bottom: 2px solid #999;
+	border-left: 0;
+	right: auto;
+}
+
+.page-numbers .fa-long-arrow-right::before{
+	content: '\f177';
+}
+
+.page-numbers .fa-long-arrow-left::before{
+	content: "\f178";
+}
+
+.mobile-menu .toggle-sub-menu::before,
+.canvas-menu .area-menu .menu ul.sub-menu .elementor-heading-title::before,
+.canvas-menu .sala-list-layout-block .elementor-heading-title::before{
+	content: "\f053";
+}
+
+.canvas-menu .area-menu .menu ul.sub-menu,
+.canvas-menu .sala-list-layout-block{
+	left: 100%;
+	right: auto;
+}
+
+.atropos.sala-atropos .atropos-item{
+	right: auto;
+}

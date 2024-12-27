@@ -1,0 +1,141 @@
+.uxper-tabpanel > .uxper-nav-tabs li a {
+	color: #666;
+    text-decoration: none;
+    padding: 10px 30px 10px 20px;
+    display: block;
+    font-weight: bold;
+    font-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+    border-left: 0;
+}
+.uxper-tabpanel.uxper-tabpanel-vertical > .uxper-nav-tabs li.active a {
+	color: #000;
+	border-left: 0;
+}
+.uxper-tabpanel > .uxper-nav-tabs li a:hover {
+	color: #000;
+}
+.uxper-tabpanel.uxper-tabpanel-vertical .uxper-message.uxper-message-info {
+	font-size: 1.3em;
+	color: #23282d;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	padding-left: 0;
+	border: 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+.uxper-tabpanel.uxper-tabpanel-vertical .uxper-message.uxper-message-info:before {
+	content: '';
+}
+.uxper-tabpanel.uxper-tabpanel-vertical .uxper-message .uxper-message-title {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.uxper-tabpanel.uxper-tabpanel-vertical .uxper-message .uxper-message-body {
+	font-size: 14px;
+}
+.uxper-tabpanel.uxper-tabpanel-vertical > .uxper-tab-content {
+	width: 100%;
+	max-width: 500px;
+}
+.uxper-tabpanel.uxper-tabpanel-vertical p {
+	margin-top: 0;
+}
+.uxper-tabpanel.uxper-tabpanel-vertical .uxper-form-description {
+	font-size: 11px;
+    color: #999;
+	margin-top: 10px;
+}
+.uxper-tabpanel .uxper-button {
+    border-radius: 3px;
+    padding: 0 20px;
+}
+.uxper-tabpanel .uxper-button:hover {
+	-moz-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.uxper-tabpanel .uxper-button.success {
+	background: #007cba;
+    border: 1px solid #007cba;
+}
+.uxper-tabpanel .uxper-media-image img {
+	padding: 0;
+	border-radius: 5px;
+}
+.uxper-tabpanel .uxper-form-control select {
+	height: 32px;
+    padding: 0 0 0 10px;
+    max-width: 200px;
+    width: 100%;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: #666;
+    font-size: 12px;
+    line-height: 16px;
+}
+.uxper-tabpanel .uxper-form-title,.uxper-tabpanel .uxper-form-control {
+	float: none;
+	width: 100%;
+}
+.uxper-tabpanel .uxper-form-title {
+	font-size: 13px;
+    text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.uxper-tabpanel .uxper-form-wrapper {
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+.uxper-tabpanel select, .uxper-tabpanel input, .uxper-tabpanel textarea {
+	width: 100%;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 10px;
+    color: #666;
+    font-size: 12px;
+    line-height: 16px;
+}
+.uxper-switch {
+	color: #007cba;
+    border: 1px solid #007cba;
+}
+.uxper-switch span.option.active {
+	background-color: #007cba;
+}
+.uxper-switch span.option {
+	box-shadow: none;
+}
+.uxper-tabpanel .sp-replacer {
+	border-radius: 3px;
+	padding: 0;
+	min-height: 30px;
+	background: #f7f7f7;
+    border: 1px solid #ccc;
+}
+.uxper-tabpanel .sp-replacer .sp-dd {
+	font-size: 0;
+	padding: 6px 0;
+}
+.uxper-tabpanel .sp-replacer .sp-dd:before {
+	content: 'Select Color';
+	padding: 0 6px;
+	font-size: 11px;
+	border-left: 1px solid #ccc;
+}
+.uxper-tabpanel .sp-replacer .sp-preview {
+	width: 30px;
+    height: 30px;
+    border: 0;
+    margin-right: 0;
+}
+.sp-container {
+	border-color: #bbb;
+}
+
+
+

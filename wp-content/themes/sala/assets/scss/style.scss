@@ -1,0 +1,85 @@
+/*!
+Theme Name: Sala
+Theme URI: https://sala.uxper.co/
+Author: Uxper
+Author URI: http://uxper.co/
+Description: Sala – Unique WordPress Theme is top-notch technology & creative IT theme. By using this theme anyone can build for Startup, Apps, SaaS, IT services...
+Version: 1.0.9
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sala
+Tags: agency, app landing, business, corporate, ecommerce, marketing, saas theme, seo, software theme, startup
+*/
+
+// Settings
+@import "settings/_mixins";
+@import "settings/_variables";
+@import "settings/_bootstrap";
+
+// Vendor
+@import "vendor/bootstrap/_bootstrap-grid";
+@import "vendor/bootstrap/_utilities";
+@import "vendor/hint/hint";
+
+// Elements
+@import "elements/_formatting";
+@import "elements/_editor-style";
+@import "elements/_general";
+@import "elements/_global";
+@import "elements/_important";
+@import "elements/_dark-theme";
+
+// Widgets
+@import "widgets/_general";
+@import "widgets/_categories";
+@import "widgets/_calendar";
+@import "widgets/_recent-posts";
+@import "widgets/_rss";
+@import "widgets/_search";
+@import "widgets/_tag-cloud";
+
+// Components
+@import "components/_swiper";
+@import "components/_switcher";
+@import "components/_loading";
+@import "components/_scrollup";
+@import "components/_content-loading";
+@import "components/_content-protected";
+@import "components/_growl";
+@import "components/_comments";
+@import "components/_pagination";
+@import "components/_preloader";
+@import "components/_button";
+
+// Page Title
+@import "page-title/_page-title";
+
+// Header
+@import "header/_header";
+@import "header/_menu";
+
+// Header
+@import "footer/_copyright";
+
+// Posts
+@import "posts/_content-post";
+@import "posts/_archive-post";
+@import "posts/_single-post";
+
+// Portfolios
+@import "portfolios/_content-portfolio";
+@import "portfolios/_archive-portfolio";
+@import "portfolios/_single-portfolio";
+
+// Elementor
+@import "elementor/_all";
+
+// Products
+@import "products/_general-product";
+@import "products/_content-product";
+@import "products/_archive-product";
+@import "products/_single-product";
+@import "products/_cart";
+@import "products/_checkout";
+@import "products/_my_account";
+@import "products/_widget-product";

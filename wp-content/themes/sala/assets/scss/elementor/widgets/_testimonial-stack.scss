@@ -1,0 +1,197 @@
+#elasticstack {
+	position: relative;
+	overflow: visible;
+	width: 100%;
+	height: 100%;
+	perspective: 1200px;
+	perspective-origin: 50% 200%;
+	height: 500px;
+	max-width: 980px;
+	margin: 0 auto;
+
+	.grid-item{
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		opacity: 0;
+		cursor: pointer;
+		visibility: visible;
+		transform-origin: 50% -10%;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+		transform: translate3d(0,0,-180px);
+		box-shadow: 0 25px 45px rgba(0,0,0,.1);
+		background-color: #ffffff;
+		overflow: hidden;
+
+		&.animate{
+			-webkit-transition: all 0.3s ease-out;
+			transition: all 0.3s ease-out;
+		}
+
+		&.move-back{
+			-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.470, 1);
+			-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.470, 1.515);
+			transition-timing-function: cubic-bezier(0.175, 0.885, 0.470, 1.515);
+		}
+
+		img{
+			display: block;
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+		}
+	}
+
+	.sala-box{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		height: 100%;
+		align-items: stretch;
+		justify-content: flex-end;
+
+		.sala-image,
+		.testimonial-main-content{
+			-webkit-box-flex: 0;
+			-ms-flex: 0 0 50%;
+			flex: 0 0 50%;
+			max-width: 50%;
+		}
+
+		.sala-image{
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: auto;
+			bottom: 0;
+		}
+
+		.testimonial-main-content{
+			padding: 60px;
+			display: flex;
+			align-items: center;
+
+			.quote{
+				top: 40px;
+				right: 40px;
+				z-index: -1;
+			}
+
+			.text{
+				font-size: 18px;
+				line-height: 26px;
+				color: #555555;
+				margin-bottom: 24px;
+			}
+		}
+
+		.cite{
+			.name{
+				font-weight: 700;
+				font-size: 18px;
+				line-height: 26px;
+				color: #333333;
+				margin-bottom: 2px;
+			}
+			.position{
+				font-size: 18px;
+				line-height: 26px;
+			}
+		}
+
+		.testimonial-rating {
+			font-size: 14px;
+			color: #fb0;
+			letter-spacing: 2px;
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.no-js #elasticstack {
+	max-width: 1090px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+
+	.grid-item{
+		position: relative;
+		display: inline-block;
+		opacity: 1;
+		margin: 10px;
+		cursor: default;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+}
+
+.sala-align-right{
+	#elasticstack{
+		.sala-box{
+			justify-content: flex-start;
+			.sala-image{
+				order: 2;
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: auto;
+			}
+			.testimonial-main-content{
+				order: 1;
+			}
+		}
+	}
+}
+
+.elasticstack-nav{
+	.icon{
+		position: absolute;
+		top: 40%;
+		transform: translateY(-50%);
+		left: -95px;
+		i{
+			font-size: 40px;
+		}
+		span{
+			cursor: pointer;
+		}
+	}
+	.icon.sala-icon-next{
+		left: auto;
+		right: -95px;
+	}
+}
+
+@include elementor-breakpoint-down(md) {
+	.elasticstack-nav{
+		display: none;
+	}
+}
+
+@include elementor-breakpoint-down(sm) {
+	#elasticstack .sala-box{
+		flex-direction: column;
+		height: auto;
+		.sala-image{
+			position: static;
+		}
+		.sala-image,
+		.testimonial-main-content{
+			-webkit-box-flex: 0;
+			-ms-flex: 0 0 100%;
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+		.testimonial-main-content{
+			padding: 30px;
+		}
+	}
+	#elasticstack .grid-item img{
+		height: 260px;
+	}
+}

@@ -1,0 +1,10 @@
+.shape-blur{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background-color: $accent_color;
+	display: block;
+	border-radius: 50%;
+	opacity: 0.5;
+	filter: blur(50px);
+}

@@ -1,0 +1,241 @@
+.wpcf7 {
+	.wpcf7-response-output {
+		margin: 30px 0 0;
+		padding: 15px 20px;
+		border: 0;
+		color: #fff;
+	}
+
+	.wpcf7-validation-errors {
+		background: #f0ad4e;
+	}
+
+	.wpcf7-mail-sent-ok {
+		background: #5cb85c;
+	}
+
+	.wpcf7-not-valid-tip {
+		margin-top: 5px;
+		color: #d9534f;
+		font-size: 12px;
+	}
+}
+
+.sala-contact-form-7 {
+	.wpcf7-form {
+		p{
+			position: relative;
+		}
+		br {
+			display: none;
+		}
+	}
+
+	label,
+	span{
+		display: block;
+	}
+
+	label{
+		font-size: 16px;
+		color: $primary_color;
+	}
+
+	input,
+	input[type="tel"],
+	textarea{
+		border-radius: 0;
+		border: 0;
+		width: 100%;
+		resize: none;
+		height: 42px;
+		line-height: 42px;
+		min-height: auto;
+		padding: 0 15px;
+		margin-top: 8px;
+	}
+
+	input::-webkit-input-placeholder,
+	textarea::-webkit-input-placeholder { /* Edge */
+		color: #999999;
+	}
+
+	input:-ms-input-placeholder,
+	textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		color: #999999;
+	}
+
+	input::placeholder,
+	textarea::placeholder  {
+		color: #999999;
+	}
+
+	input[type="submit"]{
+		padding: 0 28px;
+		border-radius: 3px;
+		background-color: $primary_color;
+		font-size: 16px;
+  		font-weight: 500;
+		width: auto;
+		border: 0;
+		color: #fff;
+		cursor: pointer;
+		margin-top: 0;
+		height: auto;
+		line-height: normal;
+	}
+
+	textarea{
+		height: 80px;
+	}
+
+	.wpcf7-textarea {
+		height: 150px;
+	}
+
+	.ajax-loader {
+		display: none !important;
+	}
+
+	.form-submit {
+		text-align: center;
+		display: flex;
+	}
+}
+
+.sala-button-align-start {
+	.form-submit {
+		justify-content: flex-start;
+	}
+}
+
+.sala-button-align-center {
+	.form-submit {
+		justify-content: center;
+	}
+}
+
+.sala-button-align-end {
+	.form-submit {
+		justify-content: flex-end;
+	}
+}
+
+.sala-button-align-stretch {
+	.form-submit {
+		input[type='submit'],
+		button {
+			text-align: center;
+			-webkit-flex-basis: 100%;
+			-ms-flex-preferred-size: 100%;
+			flex-basis: 100%;
+		}
+	}
+}
+
+form .layout-01{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -15px;
+	margin-right: -15px;
+
+	p:nth-child(1),
+	p:nth-child(2),
+	p:nth-child(3),
+	p:nth-child(4){
+		-webkit-box-flex: 0;
+    	-ms-flex: 0 0 50%;
+    	flex: 0 0 50%;
+    	max-width: 50%;
+		padding: 0 15px;
+	}
+	p:nth-child(5),
+	p:nth-child(6){
+		-webkit-box-flex: 0;
+    	-ms-flex: 0 0 100%;
+    	flex: 0 0 100%;
+    	max-width: 100%;
+		padding: 0 15px;
+	}
+	p.form-submit{
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 auto;
+		flex: 0 0 auto;
+		max-width: auto;
+	}
+}
+
+form .layout-02{
+	background: linear-gradient(180deg, #1E54F3 0%, #604DE0 99.99%, rgba(0, 87, 252, 0) 100%);
+	filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.08));
+	border-radius: 4px;
+	padding: 40px;
+	max-width: 468px;
+
+	h2{
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 32px;
+		color: #FFFFFF;
+	}
+
+	input,
+	input[type="tel"]{
+		background: #F9F9F9;
+		opacity: 0.95;
+		border-radius: 4px;
+		height: 52px;
+		line-height: 52px;
+		margin-top: 0;
+	}
+
+	+ .wpcf7-response-output{
+		max-width: 468px;
+		color: #333;
+		margin:  20px 0 0 0;
+		padding: 20px;
+	}
+
+	.row span{
+		margin-bottom: 20px;
+	}
+
+	.form-submit input{
+		background: #FFCC00;
+		backdrop-filter: blur(4px);
+		border-radius: 4px;
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 20px;
+		color: #111111;
+		margin: 0;
+		height: 52px;
+	}
+
+	span.date{
+		position: relative;
+		&:after{
+			content: '\f078';
+			font-family: "Font Awesome 5 Pro";
+			color: #999999;
+			position: absolute;
+			top: 13px;
+			right: 17px;
+		}
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	form .layout-01{
+		p:nth-child(1),
+		p:nth-child(2),
+		p:nth-child(3),
+		p:nth-child(4){
+			-webkit-box-flex: 0;
+			 -ms-flex: 0 0 100%;
+			 flex: 0 0 100%;
+			 max-width: 100%;
+			padding: 0 15px;
+		}
+	}
+}

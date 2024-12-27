@@ -1,0 +1,41 @@
+.job-item-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.job-item{
+	background-color: #f9f9f9;
+	padding: 32px;
+	margin-bottom: 12px;
+
+	p{
+		font-size: 18px;
+	}
+
+	h3{
+		font-size: 24px;
+		font-weight: 600 !important;
+		line-height: 1.33;
+		margin-bottom: 8px;
+
+		a{
+			font-size: 24px;
+			font-weight: 600 !important;
+			line-height: 1.33;
+		}
+	}
+}
+
+.job-button a{
+	font-size: 16px;
+	background-color: $accent_color;
+	padding: 9px 28px 9px 28px;
+	color: $bg_body;
+	border-radius: 3px;
+
+	&:hover{
+		color: $bg_body;
+	}
+}

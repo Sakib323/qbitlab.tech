@@ -1,0 +1,81 @@
+.sala-table {
+	overflow-x: auto;
+
+	table {
+		margin: 0;
+		border-collapse: separate;
+	}
+
+	&.style-01 {
+		th {
+			font-size: 20px;
+			font-weight: 600;
+			color: #b2b2b2;
+		}
+
+		td, th {
+			text-align: left;
+			border: 0;
+			padding: 36px 10px 36px;
+		}
+
+		tr {
+			th, td {
+				border-bottom: 1px solid #eee;
+			}
+
+			&:nth-child(2n) td {
+				background: none;
+			}
+		}
+	}
+
+	&.style-02 {
+		td,th{
+			text-align: left;
+			border: 0;
+		}
+
+		thead th{
+			border-bottom: 1px solid #eeeeee;
+			padding: 25px 30px;
+		}
+
+		thead span{
+			font-size: 16px;
+			font-weight: normal;
+			display: block;
+			color: $text_color;
+			text-transform: none;
+		}
+
+		tbody {
+			td{
+				position: relative;
+				padding: 24px 30px;
+			}
+			td:first-child{
+				width: 50%;
+			}
+		}
+
+		td.fullsize{
+			font-size: 16px;
+			font-weight: 500;
+			padding: 24px 50px;
+			text-transform: uppercase;
+
+			span.icon{
+				position: absolute;
+				left: 30px;
+				top: 50%;
+				transform: translateY(-50%);
+				line-height: normal;
+				i{
+					font-size: 8px;
+					vertical-align: 3px;
+				}
+			}
+		}
+	}
+}

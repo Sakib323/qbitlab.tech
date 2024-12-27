@@ -1,0 +1,128 @@
+.sala-pagination, .woocommerce nav.woocommerce-pagination {
+    display: flex;
+
+    &.left {
+        justify-content: flex-start;
+    }
+
+    &.center {
+        justify-content: center;
+    }
+
+    &.right {
+        justify-content: flex-end;
+    }
+
+	&.loadmore i {
+		margin-right: 5px;
+	}
+
+	.sala-loader {
+		display: none;
+		padding: 2rem 0;
+	}
+
+	ul {
+		padding-left: 0;
+		border: 0;
+		margin: 0;
+	}
+
+	ul li {
+		list-style: none;
+		display: inline-block;
+		padding: 0;
+		border: 0;
+		margin-right: 15px;
+		margin-top: 0;
+		a,
+		span{
+			height: 40px;
+			width: 40px;
+			text-align: center;
+			line-height: 40px;
+			border-radius: 50%;
+			display: block;
+		}
+		a.prev,
+		a.next{
+			width: auto;
+			padding: 0 10px;
+			-webkit-transition: all 0.3s ease 0s;
+			-moz-transition: all 0.3s ease 0s;
+			-o-transition: all 0.3s ease 0s;
+			transition: all 0.3s ease 0s;
+		}
+		a.next{
+			i{
+				margin-left: 10px;
+				-webkit-transition: all 0.3s ease 0s;
+				-moz-transition: all 0.3s ease 0s;
+				-o-transition: all 0.3s ease 0s;
+				transition: all 0.3s ease 0s;
+			}
+			&:hover i{
+				margin-left: 20px;
+			}
+		}
+		a.prev{
+			i{
+				margin-right: 10px;
+				-webkit-transition: all 0.3s ease 0s;
+				-moz-transition: all 0.3s ease 0s;
+				-o-transition: all 0.3s ease 0s;
+				transition: all 0.3s ease 0s;
+			}
+			&:hover i{
+				margin-right: 20px;
+			}
+		}
+	}
+
+	ul li:last-child{
+		margin-right: 0;
+	}
+
+	li .page-numbers {
+		font-size: 18px;
+		font-weight: 500;
+		color: #5a5a5a;
+		display: inline-block;
+		position: relative;
+		background-color: transparent;
+		text-align: center;
+		border-radius: 30px;
+		padding: 0;
+	}
+
+	ul li .page-numbers.current {
+		color: #fff;
+		background-color: $accent_color;
+	}
+
+	ul li a:focus,
+	ul li a:hover{
+		color: $accent_color;
+	}
+
+	li .page-numbers.current:hover{
+		color: #fff;
+	}
+}
+
+.sala-pagination-messages {
+	display: none;
+	text-align: center;
+}
+
+.woocommerce nav.woocommerce-pagination {
+	justify-content: center;
+}
+@media (max-width: 767px) {
+	.sala-pagination ul li, .woocommerce nav.woocommerce-pagination ul li{
+		margin-right: 10px;
+	}
+	.sala-pagination, .woocommerce nav.woocommerce-pagination{
+		margin-top: 0;
+	}
+}

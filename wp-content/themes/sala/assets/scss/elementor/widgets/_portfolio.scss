@@ -1,0 +1,23 @@
+.sala-portfolio-widget{
+	.inner-portfolio-wrap{
+		overflow: hidden;
+
+		.portfolio-thumbnail{
+			overflow: hidden;
+		}
+
+		.portfolio-title a{
+			font-size: 24px;
+			font-weight: 600;
+		}
+
+		.portfolio-taxonomy li a{
+			font-size: 16px;
+			color: $primary_color;
+
+			&:hover{
+				color: $accent_color;
+			}
+		}
+	}
+}

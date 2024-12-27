@@ -1,0 +1,134 @@
+.sala-button {
+    display: inline-block;
+    border: 1px solid transparent;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+
+    &.size-xs {
+        font-size: 10px;
+        padding: 3px 10px;
+    }
+
+    &.size-s {
+        font-size: 13px;
+        padding: 5px 25px;
+    }
+
+    &.size-m {
+        font-size: 16px;
+        padding: 7px 32px;
+    }
+
+    &.size-l {
+        font-size: 18px;
+        padding: 10px 40px;
+    }
+
+    &.size-xl {
+        font-size: 28px;
+        padding: 12px 45px;
+    }
+
+    &.uppercase {
+        text-transform: uppercase;
+    }
+
+    &.wide {
+        display: block;
+        width: 100%;
+    }
+
+    &.underline {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: 2px;
+        position: relative;
+        background-color: transparent;
+        color: $primary_color;
+        padding: 0 0 10px;
+        border-radius: 0;
+        border-bottom: 1px solid $primary_color;
+
+        &:hover {
+            background-color: transparent;
+            color: $accent_color;
+            border-color: $accent_color;
+        }
+    }
+
+    &.line {
+        color: $primary_color;
+        background-color: transparent;
+        border: 1px solid $primary_color;
+
+        &:hover {
+            border-color: $accent_color;
+        }
+    }
+
+    &.full-filled {
+        color: #fff;
+        background-color: $accent_color;
+        border: 1px solid $accent_color;
+    }
+
+	&.sala-loadmore-button{
+		padding: 0;
+		border: 0;
+		text-transform: inherit;
+		i{
+			height: 40px;
+			width: 40px;
+			text-align: center;
+			line-height: 40px;
+			color: #fff;
+			background-color: $primary_color;
+			border-radius: 50%;
+			-webkit-transition: all 0.3s ease 0s;
+			-moz-transition: all 0.3s ease 0s;
+			-o-transition: all 0.3s ease 0s;
+			transition: all 0.3s ease 0s;
+		}
+	}
+	&.sala-loadmore-button:hover{
+		background-color: inherit;
+		color:$accent_color;
+		i{
+			background-color: $accent_color;
+		}
+	}
+}
+
+.hover-icon-right{
+	.elementor-button-icon{
+		-webkit-transition: all 0.3s ease 0s;
+		-moz-transition: all 0.3s ease 0s;
+		-o-transition: all 0.3s ease 0s;
+		transition: all 0.3s ease 0s;
+	}
+	.elementor-button{
+		&:hover{
+			.elementor-align-icon-right{
+				margin-left: 18px !important;
+			}
+		}
+	}
+}
+
+.hover-icon-left{
+	.elementor-button-icon{
+		-webkit-transition: all 0.3s ease 0s;
+		-moz-transition: all 0.3s ease 0s;
+		-o-transition: all 0.3s ease 0s;
+		transition: all 0.3s ease 0s;
+	}
+	.elementor-button{
+		&:hover{
+			.elementor-align-icon-left{
+				margin-right: 18px !important;
+			}
+		}
+	}
+}

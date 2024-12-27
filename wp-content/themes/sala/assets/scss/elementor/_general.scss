@@ -1,0 +1,296 @@
+.fal, .far {
+	font-family: "Font Awesome 5 Pro" !important;
+}
+
+body.open-popup{
+	.site-content{
+		z-index: 11;
+	}
+}
+
+.elementor-widget-heading .elementor-heading-title {
+	margin-bottom: 0;
+}
+
+.elementor-heading-title mark{
+	position: relative;
+	display: inline-block;
+	z-index: 2;
+}
+
+.elementor-heading-title mark:after{
+	content: '';
+	position: absolute;
+	bottom: -3px;
+	left: 0;
+	right: 0;
+	height: 4px;
+	background-color: $accent_color;
+	z-index: -1;
+}
+
+.layout-02{
+	.elementor-heading-title{
+		mark{
+			color: $accent_color;
+		}
+		mark:after{
+			content: '';
+			display: none;
+		}
+	}
+}
+
+.elementor-widget-sala-image-carousel .image img{
+	object-fit: cover;
+}.elementor-column
+
+#img100 img{
+	width: 100%;
+}
+
+.elementor-column.static{
+	position: static;
+	.elementor-widget-wrap{
+		position: static;
+	}
+}
+
+body.admin-bar{
+	.elementor-element.sticky{
+		position: sticky;
+		top: 72px;
+	}
+}
+
+.elementor-element.social-fixed-left{
+	position: fixed;
+	left: 40px;
+	bottom: 10%;
+	transform: rotate(-90deg);
+	transform-origin: 0 0;
+}
+
+.scroll-bar-wrap{
+	position: fixed;
+	left: 50px;
+	top: 30%;
+	width: 2px;
+	height: 70px;
+	display: block;
+	background: rgba(153, 153, 153, 0.36);
+	.scroll-bar-current{
+		background: #111111;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 10px;
+	}
+}
+
+.no-prefix .elementor-counter .elementor-counter-number-prefix{
+	display: none;
+}
+
+.suffix-color{
+	.elementor-counter .elementor-counter-number-suffix span{
+		color: $accent_color;
+	}
+}
+
+.counter-left{
+	.elementor-counter .elementor-counter-title{
+		text-align: left;
+	}
+}
+
+.elementor-element.sticky{
+	position: sticky;
+	top: 40px;
+}
+
+.devider-right{
+	position: relative;
+	&:after{
+		content: '';
+    	position: absolute;
+    	top: 0;
+    	right: -90px;
+    	bottom: 0;
+    	background: radial-gradient(circle at 224% 25%, rgba(255, 255, 255, 0) 67%, rgba(255, 255, 255, 0) 50%, $accent_color 50%, $accent_color 100%);
+    	background-size: 200% 200%;
+    	height: 100%;
+    	width: 200px;
+		z-index: 1;
+	}
+}
+
+.text-rotate,
+.socials-rotate{
+	transform: rotate(90deg);
+	position: relative;
+	-ms-transform-origin: 0% 0%;
+  	transform-origin: 0% 0%;
+}
+
+.socials-rotate{
+	-ms-transform-origin: 100% 100%;
+  	transform-origin: 100% 100%;
+}
+
+.text-rotate:after,
+.socials-rotate li:after{
+	content: '';
+	height: 1px;
+	width: 64px;
+	display: inline-block;
+	background-color: $primary_color;
+	position: absolute;
+	left: 100%;
+	top: 8px;
+	margin-left: 10px;
+}
+
+.socials-rotate li{
+	position: relative;
+}
+
+.socials-rotate li:last-child:after{
+	content: '';
+	display: none;
+}
+
+.socials-rotate li:after{
+	width: 26px;
+	top: 11px;
+}
+
+.fit-screen .elementor-column,
+.fit-screen .elementor-widget-wrap{
+	position: static;
+}
+
+.elementor-invisible{
+	transform-origin: 0 0;
+}
+
+.carousel-visible-right{
+	.swiper-container{
+		overflow: visible;
+	}
+	.swiper-slide{
+		opacity: 0;
+		transform: all 0.3s;
+	}
+	.swiper-slide.swiper-slide-visible{
+		opacity: 1;
+		+ .swiper-slide{
+			opacity: 1;
+		}
+	}
+}
+
+.full-half{
+	> .elementor-container > .elementor-column:first-child,
+	> .elementor-container > .elementor-column > .elementor-widget-wrap{
+		position: static;
+	}
+	.content-abs{
+		position: absolute;
+		left: 15px;
+		right: 15px;
+	}
+}
+
+.fullheight{
+	height: 100%;
+	> .elementor-widget-container{
+		height: 100%;
+	}
+}
+
+.elementor-section .elementor-column > .elementor-widget-wrap > .elementor-element.elementor-absolute{
+	padding: initial;
+}
+
+svg{
+	width: auto;
+   height: auto;
+   max-width: 100%;
+}
+
+.sala-list-footer.sala-list-layout-inline .sala-list{
+	margin-left: 0;
+	margin-right: 0;
+	.item{
+		margin-bottom: 0;
+	}
+}
+
+.site-footer{
+	.sala-list a{
+		position: relative;
+		&:after{
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 100%;
+			width: 100%;
+			border-top-width: 1px;
+			border-top-style: solid;
+			transform: scaleX(0);
+			transform-origin: right center;
+			transition: transform .25s cubic-bezier(.785,.135,.15,.86);
+		}
+		&:hover:after{
+			transform: scaleX(1);
+			transform-origin: left center;
+		}
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.devider-right:after{
+		background-size: 170% 200%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	body{
+		.devider-right:after{
+			content: '';
+			display: none;
+		}
+		.sala-mailchimp-form label:after{
+			display: none;
+		}
+		.sala-pricing-plan .toggle-wrap .discount .discount-text{
+			left: -105px;
+			top: -50px;
+		}
+		.sala-mailchimp-form-style-02 .sala-mailchimp-form input{
+			padding: 0 20px;
+			height: 48px;
+			line-height: 48px;
+		}
+		.sala-mailchimp-form-style-02 form input[type="submit"]{
+			position: static;
+			width: 100%;
+			margin-top: 10px;
+		}
+		.sala-pricing-style-01 .sala-pricing-currency,
+		.sala-pricing-style-01 .sala-pricing-price{
+			font-size: 42px;
+		}
+		.sala-pricing-style-01 .sala-pricing-period{
+			margin-bottom: 0;
+		}
+	}
+	.full-half{
+		.content-abs{
+			position: static;
+		}
+	}
+}
+

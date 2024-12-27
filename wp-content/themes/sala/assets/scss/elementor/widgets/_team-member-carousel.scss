@@ -1,0 +1,79 @@
+.sala-team-member-carousel {
+	.sala-team-member {
+		position: relative;
+		text-align: center;
+
+		&:hover {
+
+			.overlay,
+			.info,
+			.social-networks {
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+	}
+
+	.photo {
+		@extend %NormalTransition;
+		@include border-radius(4px);
+		position: relative;
+		margin-bottom: 28px;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.overlay {
+		@extend %NormalTransition;
+		content: '';
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0;
+		visibility: hidden;
+		background: rgba(17, 17, 17, .8);
+		z-index: 0;
+	}
+
+	.name {
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 26px;
+		margin-bottom: 0;
+	}
+
+	.position {
+		margin-top: 8px;
+		font-size: 18px;
+		line-height: 26px;
+		color: #999999;
+	}
+
+	.description {
+		margin-top: 10px;
+	}
+
+	.social-networks {
+		@extend %NormalTransition;
+		position: absolute;
+		top: 20px;
+		left: 20px;
+		right: 20px;
+		text-align: right;
+		opacity: 0;
+		visibility: hidden;
+
+		a {
+			@extend %NormalTransition;
+			display: inline-block;
+			font-size: 18px;
+			line-height: 0;
+			color: #fff;
+			padding: 10px 8px;
+		}
+	}
+}

@@ -1,0 +1,728 @@
+2024-01-16T00:26:23+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T00:28:08+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T02:01:20+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T02:08:17+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T06:02:23+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T06:19:24+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T06:22:50+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T06:24:45+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T06:30:49+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T06:55:33+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T07:47:09+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T08:12:20+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T08:22:31+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T08:29:40+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T08:50:38+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T10:26:39+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T11:00:52+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T11:08:31+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T11:57:45+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T12:46:46+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T13:06:28+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T13:18:46+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T13:46:32+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T14:25:37+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T14:26:36+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T14:27:40+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T14:30:41+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T14:31:41+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T14:32:41+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T14:36:19+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T14:38:58+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T14:42:00+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T14:44:02+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T14:46:02+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T14:48:03+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T14:49:06+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T14:50:35+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T14:51:38+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T14:52:43+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T14:53:46+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T14:54:48+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T14:56:31+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T14:58:22+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T14:59:52+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T15:01:13+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T15:02:27+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T15:04:28+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T15:05:28+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T15:06:28+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T15:07:34+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T15:08:34+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T15:09:39+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T15:10:40+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T15:11:41+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T15:12:43+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
+2024-01-16T15:13:49+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'u882501274_Vsd7s.wp_actionscheduler_actions' doesn't exist. in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/u882501274/domains/qbitlab.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/u882501274/domains/qbitlab.tech/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/u882501274/domains/qbitlab.tech/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 942
+
