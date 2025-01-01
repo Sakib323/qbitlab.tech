@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-list {
+  list-style-type: none;
+}
+
+.video-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: auto;
+  max-height: 700px; /* Maximum height for the card */
+  overflow: hidden; /* Ensures content doesn't overflow */
+}
+
+.video-item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+p {
+  color: #555;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.image-container {
+  margin-top: 15px;
+  text-align: center;
+  flex-grow: 1; /* Ensures content is aligned properly */
+}
+
+.image-container img {
+  width: 50%; /* Halve the width of the image */
+  height: auto;
+  max-height: 250px; /* Limit image height */
+  object-fit: cover; /* Ensures the image fills the space properly */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.learn-more-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  align-self: center; /* Centers the button horizontally */
+}
+
+.learn-more-btn:hover {
+  background-color: #0056b3;
+}
+
+.learn-more-btn:focus {
+  outline: none;
+}
